@@ -1,0 +1,1303 @@
+make[1]: Entering directory '/home/nni16/target/out'
+  GEN     Makefile
+  DTC     arch/arm64/boot/dts/vendor/qcom/blair.dtb
+  DTC     arch/arm64/boot/dts/vendor/qcom/blairp.dtb
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi.dtb
+-- KernelSU version: 11804
+-- KernelSU Manager signature size: 0x033b
+-- KernelSU Manager signature hash: c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+  CALL    ../scripts/atomic/check-atomics.sh
+  CALL    ../scripts/checksyscalls.sh
+  DTC     arch/arm64/boot/dts/vendor/qcom/blair-atp-overlay.dtbo
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-atp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-atp.dtsi:6,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-atp-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-atp.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-atp.dtsi:5:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+  DTC     arch/arm64/boot/dts/vendor/qcom/blair-cdp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/blair-mtp-nopmi-overlay.dtbo
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-cdp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-cdp.dtsi:9,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-cdp-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-cdp-pm6125.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-cdp.dtsi:7:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-mtp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp.dtsi:7,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp-nopmi.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp-nopmi-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-mtp-pm6125.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp.dtsi:6:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+  DTC     arch/arm64/boot/dts/vendor/qcom/blair-mtp-overlay.dtbo
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-mtp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp.dtsi:7,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-mtp-pm6125.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp.dtsi:6:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+  DTC     arch/arm64/boot/dts/vendor/qcom/blair-mtp-usbc-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/blair-qrd-nopmi-overlay.dtbo
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-mtp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp-usbc.dtsi:7,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp-usbc-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-mtp-pm6125.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp-usbc.dtsi:6:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+  DTC     arch/arm64/boot/dts/vendor/qcom/blair-qrd-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/blair-rumi-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/blairp-atp-overlay.dtbo
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-atp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-atp.dtsi:6,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-atp.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-atp-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-atp.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-atp.dtsi:5:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+  DTC     arch/arm64/boot/dts/vendor/qcom/blairp-cdp-overlay.dtbo
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-cdp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-cdp.dtsi:9,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-cdp.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-cdp-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-cdp-pm6125.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-cdp.dtsi:7:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+  DTC     arch/arm64/boot/dts/vendor/qcom/blairp-mtp-nopmi-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/blairp-mtp-overlay.dtbo
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-mtp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp.dtsi:7,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp-nopmi.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-mtp-nopmi.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-mtp-nopmi-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-mtp-pm6125.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp.dtsi:6:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+  DTC     arch/arm64/boot/dts/vendor/qcom/blairp-mtp-usbc-overlay.dtbo
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-mtp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp.dtsi:7,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-mtp.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-mtp-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-mtp-pm6125.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp.dtsi:6:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/blair-sde-display-mtp.dtsi:2,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp-usbc.dtsi:7,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-mtp-usbc.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blairp-mtp-usbc-overlay.dts:4:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:38: warning: "VCO_CLK_1" redefined
+   38 | #define VCO_CLK_1               26
+      | 
+In file included from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-common.dtsi:16,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/display/holi-sde-display-mtp-pm6125.dtsi:1,
+                 from ../arch/arm64/boot/dts/vendor/qcom/blair-mtp-usbc.dtsi:6:
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:28: note: this is the location of the previous definition
+   28 | #define VCO_CLK_1               18
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:39: warning: "PLL_OUT_DIV_1_CLK" redefined
+   39 | #define PLL_OUT_DIV_1_CLK       27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:29: note: this is the location of the previous definition
+   29 | #define PLL_OUT_DIV_1_CLK       19
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:40: warning: "BITCLK_SRC_1_CLK" redefined
+   40 | #define BITCLK_SRC_1_CLK        28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:30: note: this is the location of the previous definition
+   30 | #define BITCLK_SRC_1_CLK        20
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:41: warning: "BYTECLK_SRC_1_CLK" redefined
+   41 | #define BYTECLK_SRC_1_CLK       29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:31: note: this is the location of the previous definition
+   31 | #define BYTECLK_SRC_1_CLK       21
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:42: warning: "POST_BIT_DIV_1_CLK" redefined
+   42 | #define POST_BIT_DIV_1_CLK      30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:32: note: this is the location of the previous definition
+   32 | #define POST_BIT_DIV_1_CLK      22
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:43: warning: "POST_VCO_DIV_1_CLK" redefined
+   43 | #define POST_VCO_DIV_1_CLK      31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:33: note: this is the location of the previous definition
+   33 | #define POST_VCO_DIV_1_CLK      23
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:44: warning: "BYTECLK_MUX_1_CLK" redefined
+   44 | #define BYTECLK_MUX_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:34: note: this is the location of the previous definition
+   34 | #define BYTECLK_MUX_1_CLK       24
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:45: warning: "PCLK_SRC_MUX_1_CLK" redefined
+   45 | #define PCLK_SRC_MUX_1_CLK      33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:35: note: this is the location of the previous definition
+   35 | #define PCLK_SRC_MUX_1_CLK      25
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:46: warning: "PCLK_SRC_1_CLK" redefined
+   46 | #define PCLK_SRC_1_CLK          34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:36: note: this is the location of the previous definition
+   36 | #define PCLK_SRC_1_CLK          26
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:47: warning: "PCLK_MUX_1_CLK" redefined
+   47 | #define PCLK_MUX_1_CLK          35
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:37: note: this is the location of the previous definition
+   37 | #define PCLK_MUX_1_CLK          27
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:48: warning: "SHADOW_VCO_CLK_1" redefined
+   48 | #define SHADOW_VCO_CLK_1                36
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:38: note: this is the location of the previous definition
+   38 | #define SHADOW_VCO_CLK_1                28
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:49: warning: "SHADOW_PLL_OUT_DIV_1_CLK" redefined
+   49 | #define SHADOW_PLL_OUT_DIV_1_CLK        37
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:39: note: this is the location of the previous definition
+   39 | #define SHADOW_PLL_OUT_DIV_1_CLK        29
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:50: warning: "SHADOW_BITCLK_SRC_1_CLK" redefined
+   50 | #define SHADOW_BITCLK_SRC_1_CLK         38
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:40: note: this is the location of the previous definition
+   40 | #define SHADOW_BITCLK_SRC_1_CLK         30
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:51: warning: "SHADOW_BYTECLK_SRC_1_CLK" redefined
+   51 | #define SHADOW_BYTECLK_SRC_1_CLK        39
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:41: note: this is the location of the previous definition
+   41 | #define SHADOW_BYTECLK_SRC_1_CLK        31
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:52: warning: "SHADOW_POST_BIT_DIV_1_CLK" redefined
+   52 | #define SHADOW_POST_BIT_DIV_1_CLK       40
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:42: note: this is the location of the previous definition
+   42 | #define SHADOW_POST_BIT_DIV_1_CLK       32
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:53: warning: "SHADOW_POST_VCO_DIV_1_CLK" redefined
+   53 | #define SHADOW_POST_VCO_DIV_1_CLK       41
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:43: note: this is the location of the previous definition
+   43 | #define SHADOW_POST_VCO_DIV_1_CLK       33
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:54: warning: "SHADOW_PCLK_SRC_MUX_1_CLK" redefined
+   54 | #define SHADOW_PCLK_SRC_MUX_1_CLK       42
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:44: note: this is the location of the previous definition
+   44 | #define SHADOW_PCLK_SRC_MUX_1_CLK       34
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-5nm-pll-clk.h:55: warning: "SHADOW_PCLK_SRC_1_CLK" redefined
+   55 | #define SHADOW_PCLK_SRC_1_CLK           43
+      | 
+../scripts/dtc/include-prefixes/dt-bindings/clock/mdss-10nm-pll-clk.h:45: note: this is the location of the previous definition
+   45 | #define SHADOW_PCLK_SRC_1_CLK           35
+      | 
+  DTC     arch/arm64/boot/dts/vendor/qcom/blairp-qrd-nopmi-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/blairp-qrd-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-atp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-cdp-lcd-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-cdp-lcd-pm6125-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-cdp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-cdp-pm6125-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-mtp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-mtp-pm6125-nopmi-overlay.dtbo
+  CHK     include/generated/compile.h
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-mtp-pm6125-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-mtp-usbc-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-mtp-usbc-pm6125-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-qrd-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-qrd-pm6125-nopmi-overlay.dtbo
+  CC      fs/open.o
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-qrd-pm6125-overlay.dtbo
+  DTC     arch/arm64/boot/dts/vendor/qcom/holi-rumi-overlay.dtbo
+  CC      fs/read_write.o
+  CC      fs/file_table.o
+  CC      fs/super.o
+  CC      fs/char_dev.o
+  CC      fs/exec.o
+  CC      fs/pipe.o
+-- KernelSU version: 11804
+-- KernelSU Manager signature size: 0x033b
+-- KernelSU Manager signature hash: c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+  CC      drivers/kernelsu/ksu.o
+  CC      drivers/kernelsu/allowlist.o
+  CC      drivers/kernelsu/apk_sign.o
+  CC      drivers/kernelsu/sucompat.o
+  CC      drivers/kernelsu/throne_tracker.o
+In file included from ../fs/exec.c:66:
+In file included from ../include/linux/ksm.h:115:
+../include/linux/uksm.h:19:22: warning: section attribute is specified on redeclared variable [-Wsection]
+extern unsigned long zero_pfn __read_mostly;
+                     ^
+../include/asm-generic/pgtable.h:897:23: note: previous declaration is here
+        extern unsigned long zero_pfn;
+                             ^
+In file included from ../fs/exec.c:66:
+In file included from ../include/linux/ksm.h:115:
+../include/linux/uksm.h:20:22: warning: section attribute is specified on redeclared variable [-Wsection]
+extern unsigned long uksm_zero_pfn __read_mostly;
+                     ^
+../include/asm-generic/pgtable.h:874:23: note: previous declaration is here
+        extern unsigned long uksm_zero_pfn;
+                             ^
+  CC      fs/namei.o
+2 warnings generated.
+  CC      fs/ioctl.o
+  CC      fs/dcache.o
+  CC      drivers/kernelsu/core_hook.o
+  CC      drivers/kernelsu/ksud.o
+  CC      fs/inode.o
+  CC      drivers/kernelsu/embed_ksud.o
+  CC      drivers/kernelsu/kernel_compat.o
+../fs/namei.c:3914:15: warning: mixing declarations and code is a C99 extension [-Wdeclaration-after-statement]
+        unsigned int lookup_flags = 0;
+                     ^
+  CC      drivers/kernelsu/selinux/selinux.o
+  CC      drivers/kernelsu/selinux/sepolicy.o
+  CC      fs/namespace.o
+  CC      drivers/kernelsu/selinux/rules.o
+  CC      fs/libfs.o
+1 warning generated.
+  CC      fs/fs-writeback.o
+  CC      fs/pnode.o
+  CC      fs/splice.o
+  CC      fs/sync.o
+../fs/namespace.c:3204:3: warning: misleading indentation; statement is not part of the previous 'if' [-Wmisleading-indentation]
+                mnt_flags |= MNT_NOATIME;
+                ^
+../fs/namespace.c:3201:2: note: previous statement is here
+        if (flags & MS_NOEXEC)
+        ^
+  CC      fs/fs_struct.o
+  CC      fs/statfs.o
+  AR      drivers/kernelsu/built-in.a
+  CC      fs/fs_pin.o
+  CC      fs/fs_context.o
+  CC      fs/fs_parser.o
+  CC      fs/fsopen.o
+  CC      fs/block_dev.o
+1 warning generated.
+  CC      fs/mpage.o
+  CC      fs/proc_namespace.o
+  CC      fs/iomap/buffered-io.o
+  CC      fs/iomap/direct-io.o
+  CC      fs/quota/dquot.o
+  CC      fs/aio.o
+  CC      fs/io_uring.o
+  CC      fs/compat.o
+  CC      fs/compat_ioctl.o
+  CC      fs/binfmt_misc.o
+  CC      fs/coredump.o
+  AR      fs/iomap/built-in.a
+  CC      fs/drop_caches.o
+  AR      fs/quota/built-in.a
+  CC      fs/fhandle.o
+  AR      fs/built-in.a
+  AR      drivers/built-in.a
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.a
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+WARNING: "embms_tm_multicast_recv" [vmlinux] is a static EXPORT_SYMBOL
+WARNING: "ope_soc_info" [vmlinux] is a static EXPORT_SYMBOL
+  MODINFO modules.builtin.modinfo
+  LD      .tmp_vmlinux.kallsyms1
+  KSYM    .tmp_vmlinux.kallsyms1.o
+  LD      .tmp_vmlinux.kallsyms2
+  KSYM    .tmp_vmlinux.kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  Building modules, stage 2.
+  MODPOST 7 modules
+  OBJCOPY arch/arm64/boot/Image
+make[1]: Leaving directory '/home/nni16/target/out'
