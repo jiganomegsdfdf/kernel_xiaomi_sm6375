@@ -157,3 +157,8 @@ arch/arm/boot/dts/vendor
 #Ignoring Android.bp link file
 #
 Android.bp
+
+
+#Ignoring output and log
+/out/
+log.txt
