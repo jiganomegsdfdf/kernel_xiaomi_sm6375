@@ -3,8 +3,8 @@
 #Clone neutron-clang 
  mkdir toolchain && (cd toolchain; bash <(curl -s "https://raw.githubusercontent.com/Neutron-Toolchains/antman/main/antman") -S)
  
-KERNEL_DEFCONFIG="veux_defconfig"
-KERNEL_CMDLINE="ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=out LLVM=1"
+KERNEL_DEFCONFIG="veux_halium_defconfig"
+KERNEL_CMDLINE="O=out ARCH=arm64 CC=clang LD=ld.lld AR=llvm-ar AS=llvm-as NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip CROSS_COMPILE=aarch64-linux-gnu- CROSS_COMPILE_ARM32=arm-linux-gnueabi-"
 
 
 
@@ -19,7 +19,6 @@ KERNEL_CMDLINE="ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=out LLVM=1"
     
 #Zip the kernel    
 cp out/arch/arm64/boot/Image $(pwd)/AnyKernel3
-cp out/arch/arm64/boot/dts/vendor/qcom/blair.dtb $(pwd)/AnyKernel3
-cd AnyKernel3 && mv blair.dtb dtb && zip -r9 Rashoumon_veux_$(date +"%Y-%m-%d").zip *
+cd AnyKernel3 && mv veux.dtb dtb && zip -r9 Beast_veux_$(date +"%Y-%m-%d").zip *
 
 echo "Done!"
