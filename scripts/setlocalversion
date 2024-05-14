@@ -54,7 +54,7 @@ scm_version()
 	# Check for git and a git repo.
 	if test -z "$(git rev-parse --show-cdup 2>/dev/null)" &&
 	   head=$(git rev-parse --verify --short=8 HEAD 2>/dev/null); then
-		printf '%s%s' "/" $head
+		printf 's'
 	fi
 }
 
@@ -72,7 +72,7 @@ collect_files()
 			res="$res$(cat "$file")"
 		fi
 	done
-	echo "$res"
+	echo "s"
 }
 
 if test -e include/config/auto.conf; then
@@ -91,4 +91,4 @@ fi
 # scm version string
 res="$res$(scm_version)"
 
-echo "$res"
+echo "s"

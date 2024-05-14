@@ -3652,6 +3652,35 @@ static const struct panel_desc_dsi lg_acx467akm_7 = {
 	.lanes = 4,
 };
 
+static const struct drm_display_mode k6s_38_0c_0ap_dsc_mode = {
+	.clock = (1080 + 120 + 28 + 120) * (2400 + 20 + 2 + 10) * 120 / 1000,
+	.hdisplay = 1080,
+	.hsync_start = 1080 + 120,
+	.hsync_end = 1080 + 120 + 28,
+	.htotal = 1080 + 120 + 28 + 120,
+	.vdisplay = 2400,
+	.vsync_start = 2400 + 20,
+	.vsync_end = 2400 + 20 + 2,
+	.vtotal = 2400 + 20 + 2 + 10,
+	.vrefresh = 120,
+};
+
+static const struct panel_desc_dsi k6s_38_0c_0ap_dsc = {
+	.desc = {
+		.modes = &k6s_38_0c_0ap_dsc_mode,
+		.num_modes = 1,
+		.bpc = 8,
+		.size = {
+			.width = 69,
+			.height = 154,
+		},
+	},
+	.flags = MIPI_DSI_MODE_VIDEO | MIPI_DSI_MODE_VIDEO_BURST |
+		 MIPI_DSI_CLOCK_NON_CONTINUOUS,
+	.format = MIPI_DSI_FMT_RGB888,
+	.lanes = 4,
+};
+
 static const struct drm_display_mode osd101t2045_53ts_mode = {
 	.clock = 154500,
 	.hdisplay = 1920,
@@ -3705,6 +3734,9 @@ static const struct of_device_id dsi_of_match[] = {
 	}, {
 		.compatible = "osddisplays,osd101t2045-53ts",
 		.data = &osd101t2045_53ts
+	}, {
+		.compatible = "qcom,mdss_dsi_k6s_38_0c_0a_fhdp_dsc_vid",
+		.data = &k6s_38_0c_0ap_dsc
 	}, {
 		/* sentinel */
 	}

@@ -13,6 +13,7 @@
 
 struct mipi_dsi_host;
 struct mipi_dsi_device;
+struct drm_dsc_picture_parameter_set;
 
 /* request ACK from peripheral */
 #define MIPI_DSI_MSG_REQ_ACK	BIT(0)
@@ -197,6 +198,8 @@ struct mipi_dsi_device {
 	unsigned long mode_flags;
 	unsigned long hs_rate;
 	unsigned long lp_rate;
+	struct drm_dsc_config *dsc;
+	unsigned int dsc_slice_per_pkt;
 };
 
 #define MIPI_DSI_MODULE_PREFIX "mipi-dsi:"
@@ -297,6 +300,48 @@ int mipi_dsi_dcs_set_display_brightness_large(struct mipi_dsi_device *dsi,
 					     u16 brightness);
 int mipi_dsi_dcs_get_display_brightness_large(struct mipi_dsi_device *dsi,
 					     u16 *brightness);
+ssize_t mipi_dsi_compression_mode(struct mipi_dsi_device *dsi, bool enable);
+ssize_t mipi_dsi_picture_parameter_set(struct mipi_dsi_device *dsi,
+				       const struct drm_dsc_picture_parameter_set *pps);
+
+/**
+ * mipi_dsi_generic_write_seq - transmit data using a generic write packet
+ * @dsi: DSI peripheral device
+ * @seq: buffer containing the payload
+ */
+#define mipi_dsi_generic_write_seq(dsi, seq...)                                \
+	do {                                                                   \
+		static const u8 d[] = { seq };                                 \
+		struct device *dev = &dsi->dev;                                \
+		int ret;                                                       \
+		ret = mipi_dsi_generic_write(dsi, d, ARRAY_SIZE(d));           \
+		if (ret < 0) {                                                 \
+			dev_err_ratelimited(dev, "transmit data failed: %d\n", \
+					    ret);                              \
+			return ret;                                            \
+		}                                                              \
+	} while (0)
+
+
+/**
+ * mipi_dsi_dcs_write_seq - transmit a DCS command with payload
+ * @dsi: DSI peripheral device
+ * @cmd: Command
+ * @seq: buffer containing data to be transmitted
+ */
+#define mipi_dsi_dcs_write_seq(dsi, cmd, seq...)                           \
+	do {                                                               \
+		static const u8 d[] = { cmd, seq };                        \
+		struct device *dev = &dsi->dev;                            \
+		int ret;                                                   \
+		ret = mipi_dsi_dcs_write_buffer(dsi, d, ARRAY_SIZE(d));    \
+		if (ret < 0) {                                             \
+			dev_err_ratelimited(                               \
+				dev, "sending command %#02x failed: %d\n", \
+				cmd, ret);                                 \
+			return ret;                                        \
+		}                                                          \
+	} while (0)
 
 /**
  * struct mipi_dsi_driver - DSI driver
