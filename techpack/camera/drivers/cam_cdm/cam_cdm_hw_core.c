@@ -12,22 +12,22 @@
 #include <linux/kernel.h>
 
 #include <media/cam_req_mgr.h>
-#include "cam_soc_util.h"
-#include "cam_smmu_api.h"
+#include "../cam_utils/cam_soc_util.h"
+#include "../cam_smmu/cam_smmu_api.h"
 #include "cam_cdm_intf_api.h"
 #include "cam_cdm.h"
 #include "cam_cdm_core_common.h"
 #include "cam_cdm_soc.h"
-#include "cam_io_util.h"
+#include "../cam_utils/cam_io_util.h"
 #include "cam_cdm_hw_reg_1_0.h"
 #include "cam_cdm_hw_reg_1_1.h"
 #include "cam_cdm_hw_reg_1_2.h"
 #include "cam_cdm_hw_reg_2_0.h"
 #include "cam_cdm_hw_reg_2_1.h"
-#include "camera_main.h"
-#include "cam_trace.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_common_util.h"
+#include "../camera_main.h"
+#include "../cam_utils/cam_trace.h"
+#include "../cam_req_mgr/cam_req_mgr_workq.h"
+#include "../cam_utils/cam_common_util.h"
 
 #define CAM_CDM_BL_FIFO_WAIT_TIMEOUT 2000
 #define CAM_CDM_DBG_GEN_IRQ_USR_DATA 0xff

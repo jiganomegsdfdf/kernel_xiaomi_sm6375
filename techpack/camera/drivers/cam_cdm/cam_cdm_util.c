@@ -11,7 +11,7 @@
 #include "cam_cdm_intf_api.h"
 #include "cam_cdm_util.h"
 #include "cam_cdm.h"
-#include "cam_io_util.h"
+#include "../cam_utils/cam_io_util.h"
 
 #define CAM_CDM_DWORD 4
 

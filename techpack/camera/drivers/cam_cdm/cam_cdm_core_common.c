@@ -10,9 +10,9 @@
 #include <linux/timer.h>
 #include <linux/kernel.h>
 
-#include "cam_soc_util.h"
-#include "cam_smmu_api.h"
-#include "cam_io_util.h"
+#include "../cam_utils/cam_soc_util.h"
+#include "../cam_smmu/cam_smmu_api.h"
+#include "../cam_utils/cam_io_util.h"
 #include "cam_cdm_intf_api.h"
 #include "cam_cdm.h"
 #include "cam_cdm_soc.h"

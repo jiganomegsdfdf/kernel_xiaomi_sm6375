@@ -6,7 +6,7 @@
 #ifndef _CAM_CDM_CORE_COMMON_H_
 #define _CAM_CDM_CORE_COMMON_H_
 
-#include "cam_mem_mgr.h"
+#include "../cam_req_mgr/cam_mem_mgr.h"
 
 #define CAM_CDM100_VERSION 0x10000000
 #define CAM_CDM110_VERSION 0x10010000

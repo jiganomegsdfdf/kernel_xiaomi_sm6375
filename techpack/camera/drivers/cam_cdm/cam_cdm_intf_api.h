@@ -8,7 +8,7 @@
 
 #include <media/cam_defs.h>
 #include "cam_cdm_util.h"
-#include "cam_soc_util.h"
+#include "../cam_utils/cam_soc_util.h"
 
 #define CAM_CDM_BL_CMD_MAX  25
 

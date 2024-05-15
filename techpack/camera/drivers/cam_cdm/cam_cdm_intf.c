@@ -13,10 +13,10 @@
 #include "cam_cdm_intf_api.h"
 #include "cam_cdm.h"
 #include "cam_cdm_virtual.h"
-#include "cam_soc_util.h"
+#include "../cam_utils/cam_soc_util.h"
 #include "cam_cdm_soc.h"
 #include "cam_cdm_core_common.h"
-#include "camera_main.h"
+#include "../camera_main.h"
 
 static struct cam_cdm_intf_mgr cdm_mgr;
 static DEFINE_MUTEX(cam_cdm_mgr_lock);

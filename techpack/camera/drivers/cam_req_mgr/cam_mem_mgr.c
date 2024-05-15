@@ -12,13 +12,13 @@
 #include <linux/version.h>
 #include <linux/debugfs.h>
 
-#include "cam_compat.h"
+#include "../cam_utils/cam_compat.h"
 #include "cam_req_mgr_util.h"
 #include "cam_mem_mgr.h"
-#include "cam_smmu_api.h"
-#include "cam_debug_util.h"
-#include "cam_trace.h"
-#include "cam_common_util.h"
+#include "../cam_smmu/cam_smmu_api.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_utils/cam_trace.h"
+#include "../cam_utils/cam_common_util.h"
 
 static struct cam_mem_table tbl;
 static atomic_t cam_mem_mgr_state = ATOMIC_INIT(CAM_MEM_MGR_UNINITIALIZED);
