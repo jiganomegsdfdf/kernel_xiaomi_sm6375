@@ -6,7 +6,7 @@
 #ifndef CAM_IPE_SOC_H
 #define CAM_IPE_SOC_H
 
-#include "cam_soc_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
 
 int cam_ipe_init_soc_resources(struct cam_hw_soc_info *soc_info,
 	irq_handler_t ipe_irq_handler, void *irq_data);

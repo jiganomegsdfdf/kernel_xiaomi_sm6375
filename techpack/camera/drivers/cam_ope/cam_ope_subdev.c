@@ -20,16 +20,16 @@
 #include <media/cam_req_mgr.h>
 #include <media/cam_defs.h>
 #include <media/cam_ope.h>
-#include "cam_req_mgr_dev.h"
-#include "cam_subdev.h"
-#include "cam_node.h"
-#include "cam_context.h"
+#include "../cam_req_mgr/cam_req_mgr_dev.h"
+#include "../cam_req_mgr/cam_subdev.h"
+#include "../cam_core/cam_node.h"
+#include "../cam_core/cam_context.h"
 #include "cam_ope_context.h"
-#include "cam_ope_hw_mgr_intf.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_debug_util.h"
-#include "cam_smmu_api.h"
-#include "camera_main.h"
+#include "ope_hw_mgr/cam_ope_hw_mgr_intf.h"
+#include "../cam_core/cam_hw_mgr_intf.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_smmu/cam_smmu_api.h"
+#include "../camera_main.h"
 
 #define OPE_DEV_NAME        "cam-ope"
 

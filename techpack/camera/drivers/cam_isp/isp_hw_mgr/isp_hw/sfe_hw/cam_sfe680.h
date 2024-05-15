@@ -6,9 +6,9 @@
 #ifndef _CAM_SFE680_H_
 #define _CAM_SFE680_H_
 #include "cam_sfe_core.h"
-#include "cam_sfe_bus.h"
-#include "cam_sfe_bus_rd.h"
-#include "cam_sfe_bus_wr.h"
+#include "sfe_bus/include/cam_sfe_bus.h"
+#include "sfe_bus/cam_sfe_bus_rd.h"
+#include "sfe_bus/cam_sfe_bus_wr.h"
 
 static struct cam_sfe_top_common_reg_offset  sfe680_top_commong_reg  = {
 	.hw_version                    = 0x00000000,

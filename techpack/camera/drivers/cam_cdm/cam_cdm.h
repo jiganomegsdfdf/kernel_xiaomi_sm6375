@@ -17,7 +17,7 @@
 
 #include "cam_cdm_intf_api.h"
 #include "../cam_utils/cam_soc_util.h"
-#include "../cam_cpas/cam_cpas_api.h"
+#include "../cam_cpas/include/cam_cpas_api.h"
 #include "../cam_core/cam_hw_intf.h"
 #include "../cam_core/cam_hw.h"
 #include "../cam_utils/cam_debug_util.h"

@@ -8,10 +8,10 @@
 
 #include <linux/platform_device.h>
 
-#include "cam_cpas_api.h"
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
-#include "cam_debug_util.h"
+#include "include/cam_cpas_api.h"
+#include "../cam_core/cam_hw.h"
+#include "../cam_core/cam_hw_intf.h"
+#include "../cam_utils/cam_debug_util.h"
 
 /* Number of times to retry while polling */
 #define CAM_CPAS_POLL_RETRY_CNT 5

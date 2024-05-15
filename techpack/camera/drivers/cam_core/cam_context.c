@@ -8,7 +8,7 @@
 #include <linux/refcount.h>
 
 #include "cam_context.h"
-#include "cam_debug_util.h"
+#include "../cam_utils/cam_debug_util.h"
 #include "cam_node.h"
 
 static int cam_context_handle_hw_event(void *context, uint32_t evt_id,

@@ -6,7 +6,7 @@
 #ifndef _CAM_OPE_CONTEXT_H_
 #define _CAM_OPE_CONTEXT_H_
 
-#include "cam_context.h"
+#include "../cam_core/cam_context.h"
 
 #define OPE_CTX_MAX 32
 

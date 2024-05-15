@@ -6,8 +6,8 @@
 #ifndef _CAM_VFE_CAMIF_LITE_VER2_H_
 #define _CAM_VFE_CAMIF_LITE_VER2_H_
 
-#include "cam_isp_hw.h"
-#include "cam_vfe_top.h"
+#include "../../include/cam_isp_hw.h"
+#include "include/cam_vfe_top.h"
 
 #define CAM_VFE_CAMIF_LITE_EVT_MAX     256
 

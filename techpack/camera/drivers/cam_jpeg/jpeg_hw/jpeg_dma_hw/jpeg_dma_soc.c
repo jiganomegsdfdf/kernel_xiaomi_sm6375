@@ -10,8 +10,8 @@
 #include <media/cam_jpeg.h>
 
 #include "jpeg_dma_soc.h"
-#include "cam_soc_util.h"
-#include "cam_debug_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
+#include "../../../cam_utils/cam_debug_util.h"
 
 int cam_jpeg_dma_init_soc_resources(struct cam_hw_soc_info *soc_info,
 	irq_handler_t jpeg_dma_irq_handler, void *irq_data)

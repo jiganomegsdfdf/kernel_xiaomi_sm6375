@@ -8,11 +8,11 @@
 #include <linux/slab.h>
 #include <linux/uaccess.h>
 
-#include "cam_mem_mgr.h"
+#include "../cam_req_mgr/cam_mem_mgr.h"
 #include "cam_jpeg_context.h"
-#include "cam_context_utils.h"
-#include "cam_debug_util.h"
-#include "cam_packet_util.h"
+#include "../cam_core/cam_context_utils.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_utils/cam_packet_util.h"
 
 static const char jpeg_dev_name[] = "cam-jpeg";
 

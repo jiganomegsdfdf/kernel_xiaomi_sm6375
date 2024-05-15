@@ -12,17 +12,17 @@
 #include <media/cam_custom.h>
 #include <media/cam_sync.h>
 
-#include "cam_compat.h"
-#include "cam_sync_api.h"
-#include "cam_smmu_api.h"
-#include "cam_req_mgr_workq.h"
+#include "../../cam_utils/cam_compat.h"
+#include "../../cam_sync/cam_sync_api.h"
+#include "../../cam_smmu/cam_smmu_api.h"
+#include "../../cam_req_mgr/cam_req_mgr_workq.h"
 #include "cam_custom_hw_mgr.h"
-#include "cam_packet_util.h"
-#include "cam_debug_util.h"
-#include "cam_cpas_api.h"
-#include "cam_mem_mgr_api.h"
-#include "cam_common_util.h"
-#include "cam_hw.h"
+#include "../../cam_utils/cam_packet_util.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../../cam_cpas/include/cam_cpas_api.h"
+#include "../../cam_req_mgr/cam_mem_mgr_api.h"
+#include "../../cam_utils/cam_common_util.h"
+#include "../../cam_core/cam_hw.h"
 
 static struct cam_custom_hw_mgr g_custom_hw_mgr;
 

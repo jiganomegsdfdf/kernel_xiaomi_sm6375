@@ -4,10 +4,10 @@
  */
 
 #include "cam_sensor_dev.h"
-#include "cam_req_mgr_dev.h"
+#include "../../cam_req_mgr/cam_req_mgr_dev.h"
 #include "cam_sensor_soc.h"
 #include "cam_sensor_core.h"
-#include "camera_main.h"
+#include "../../camera_main.h"
 
 static int cam_sensor_subdev_close_internal(struct v4l2_subdev *sd,
 	struct v4l2_subdev_fh *fh)

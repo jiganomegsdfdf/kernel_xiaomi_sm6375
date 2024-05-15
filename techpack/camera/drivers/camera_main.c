@@ -5,57 +5,57 @@
 #include <linux/module.h>
 #include <linux/build_bug.h>
 
-#include "cam_req_mgr_dev.h"
-#include "cam_sync_api.h"
-#include "cam_smmu_api.h"
-#include "cam_cpas_hw_intf.h"
-#include "cam_cdm_intf_api.h"
+#include "cam_req_mgr/cam_req_mgr_dev.h"
+#include "cam_sync/cam_sync_api.h"
+#include "cam_smmu/cam_smmu_api.h"
+#include "cam_cpas/cam_cpas_hw_intf.h"
+#include "cam_cdm/cam_cdm_intf_api.h"
 
-#include "cam_ife_csid_dev.h"
-#include "cam_vfe.h"
-#include "cam_sfe_dev.h"
-#include "cam_isp_dev.h"
+#include "cam_isp/isp_hw_mgr/isp_hw/ife_csid_hw/cam_ife_csid_dev.h"
+#include "cam_isp/isp_hw_mgr/isp_hw/vfe_hw/vfe17x/cam_vfe.h"
+#include "cam_isp/isp_hw_mgr/isp_hw/sfe_hw/cam_sfe_dev.h"
+#include "cam_isp/cam_isp_dev.h"
 
-#include "cam_res_mgr_api.h"
-#include "cam_cci_dev.h"
-#include "cam_sensor_dev.h"
-#include "cam_actuator_dev.h"
-#include "cam_csiphy_dev.h"
-#include "cam_eeprom_dev.h"
-#include "cam_ois_dev.h"
+#include "cam_sensor_module/cam_res_mgr/cam_res_mgr_api.h"
+#include "cam_sensor_module/cam_cci/cam_cci_dev.h"
+#include "cam_sensor_module/cam_sensor/cam_sensor_dev.h"
+#include "cam_sensor_module/cam_actuator/cam_actuator_dev.h"
+#include "cam_sensor_module/cam_csiphy/cam_csiphy_dev.h"
+#include "cam_sensor_module/cam_eeprom/cam_eeprom_dev.h"
+#include "cam_sensor_module/cam_ois/cam_ois_dev.h"
 
 #if IS_REACHABLE(CONFIG_LEDS_QPNP_FLASH_V2) || \
 	IS_REACHABLE(CONFIG_LEDS_QTI_FLASH)
-#include "cam_flash_dev.h"
+#include "cam_sensor_module/cam_flash/cam_flash_dev.h"
 #endif
 
-#include "a5_core.h"
-#include "ipe_core.h"
-#include "bps_core.h"
-#include "cam_icp_subdev.h"
+#include "cam_icp/icp_hw/a5_hw/a5_core.h"
+#include "cam_icp/icp_hw/ipe_hw/ipe_core.h"
+#include "cam_icp/icp_hw/bps_hw/bps_core.h"
+#include "cam_icp/cam_icp_subdev.h"
 
-#include "jpeg_dma_core.h"
-#include "jpeg_enc_core.h"
-#include "cam_jpeg_dev.h"
+#include "cam_jpeg/jpeg_hw/jpeg_dma_hw/jpeg_dma_core.h"
+#include "cam_jpeg/jpeg_hw/jpeg_enc_hw/jpeg_enc_core.h"
+#include "cam_jpeg/cam_jpeg_dev.h"
 
-#include "cam_fd_hw_intf.h"
-#include "cam_fd_dev.h"
+#include "cam_fd/fd_hw_mgr/fd_hw/cam_fd_hw_intf.h"
+#include "cam_fd/cam_fd_dev.h"
 
-#include "cam_lrme_hw_intf.h"
-#include "cam_lrme_dev.h"
+#include "cam_lrme/lrme_hw_mgr/lrme_hw/cam_lrme_hw_intf.h"
+#include "cam_lrme/cam_lrme_dev.h"
 
-#include "cam_custom_dev.h"
-#include "cam_custom_csid_dev.h"
-#include "cam_custom_sub_mod_dev.h"
+#include "cam_cust/cam_custom_dev.h"
+#include "cam_cust/cam_custom_hw_mgr/cam_custom_csid/cam_custom_csid_dev.h"
+#include "cam_cust/cam_custom_hw_mgr/cam_custom_hw1/cam_custom_sub_mod_dev.h"
 
-#include "cam_debug_util.h"
+#include "cam_utils/cam_debug_util.h"
 
-#include "ope_dev_intf.h"
+#include "cam_ope/ope_hw_mgr/ope_hw/ope_dev_intf.h"
 
-#include "cam_top_tpg.h"
-#include "cam_tfe_dev.h"
-#include "cam_tfe_csid530.h"
-#include "cam_csid_ppi100.h"
+#include "cam_isp/isp_hw_mgr/isp_hw/top_tpg/cam_top_tpg.h"
+#include "cam_isp/isp_hw_mgr/isp_hw/tfe_hw/cam_tfe_dev.h"
+#include "cam_isp/isp_hw_mgr/isp_hw/tfe_csid_hw/cam_tfe_csid530.h"
+#include "cam_isp/isp_hw_mgr/isp_hw/ppi_hw/cam_csid_ppi100.h"
 #include "camera_main.h"
 
 struct camera_submodule_component {

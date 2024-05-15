@@ -8,8 +8,8 @@
 
 #include "cam_compat.h"
 #include "cam_debug_util.h"
-#include "cam_cpas_api.h"
-#include "camera_main.h"
+#include "../cam_cpas/include/cam_cpas_api.h"
+#include "../camera_main.h"
 
 #if KERNEL_VERSION(5, 4, 0) <= LINUX_VERSION_CODE
 int cam_reserve_icp_fw(struct cam_fw_alloc_info *icp_fw, size_t fw_length)

@@ -6,7 +6,7 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-#include "cam_debug_util.h"
+#include "../cam_utils/cam_debug_util.h"
 #include "cam_lrme_context.h"
 
 static const char lrme_dev_name[] = "cam-lrme";

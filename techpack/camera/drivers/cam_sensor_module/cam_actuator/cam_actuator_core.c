@@ -5,12 +5,12 @@
  */
 
 #include <linux/module.h>
-#include <cam_sensor_cmn_header.h>
+#include "../cam_sensor_utils/cam_sensor_cmn_header.h"
 #include "cam_actuator_core.h"
-#include "cam_sensor_util.h"
-#include "cam_trace.h"
-#include "cam_common_util.h"
-#include "cam_packet_util.h"
+#include "../cam_sensor_utils/cam_sensor_util.h"
+#include "../../cam_utils/cam_trace.h"
+#include "../../cam_utils/cam_common_util.h"
+#include "../../cam_utils/cam_packet_util.h"
 
 int32_t cam_actuator_construct_default_power_setting(
 	struct cam_sensor_power_ctrl_t *power_info)

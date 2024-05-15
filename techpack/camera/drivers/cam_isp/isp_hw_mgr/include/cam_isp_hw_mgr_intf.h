@@ -10,7 +10,7 @@
 #include <linux/time.h>
 #include <linux/list.h>
 #include <media/cam_isp.h>
-#include "cam_hw_mgr_intf.h"
+#include "../../../cam_core/cam_hw_mgr_intf.h"
 
 /* MAX IFE instance */
 #define CAM_IFE_HW_NUM_MAX   7

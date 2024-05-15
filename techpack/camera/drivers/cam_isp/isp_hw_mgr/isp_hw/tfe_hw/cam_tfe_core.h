@@ -8,9 +8,9 @@
 #define _CAM_TFE_CORE_H_
 
 #include <linux/spinlock.h>
-#include "cam_hw_intf.h"
+#include "../../../../cam_core/cam_hw_intf.h"
 #include "cam_tfe_bus.h"
-#include "cam_tfe_hw_intf.h"
+#include "../include/cam_tfe_hw_intf.h"
 #include "cam_tfe_irq.h"
 
 #define CAM_TFE_CAMIF_VER_1_0        0x10

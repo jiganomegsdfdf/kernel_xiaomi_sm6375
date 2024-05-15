@@ -6,8 +6,8 @@
 #ifndef _CAM_CPASTOP_HW_H_
 #define _CAM_CPASTOP_HW_H_
 
-#include "cam_cpas_api.h"
-#include "cam_cpas_hw.h"
+#include "../include/cam_cpas_api.h"
+#include "../cam_cpas_hw.h"
 
 /**
  * enum cam_camnoc_hw_irq_type - Enum for camnoc error types

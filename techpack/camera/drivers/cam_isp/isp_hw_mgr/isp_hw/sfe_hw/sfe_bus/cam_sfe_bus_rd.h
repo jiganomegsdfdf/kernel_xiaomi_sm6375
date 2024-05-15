@@ -6,7 +6,7 @@
 #ifndef _CAM_SFE_BUS_RD_H_
 #define _CAM_SFE_BUS_RD_H_
 
-#include "cam_sfe_bus.h"
+#include "include/cam_sfe_bus.h"
 
 #define CAM_SFE_BUS_RD_MAX_CLIENTS 3
 

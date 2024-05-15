@@ -5,13 +5,13 @@
  */
 
 #include <linux/module.h>
-#include <cam_sensor_cmn_header.h>
+#include "../cam_sensor_utils/cam_sensor_cmn_header.h"
 #include "cam_sensor_core.h"
-#include "cam_sensor_util.h"
-#include "cam_soc_util.h"
-#include "cam_trace.h"
-#include "cam_common_util.h"
-#include "cam_packet_util.h"
+#include "../cam_sensor_utils/cam_sensor_util.h"
+#include "../../cam_utils/cam_soc_util.h"
+#include "../../cam_utils/cam_trace.h"
+#include "../../cam_utils/cam_common_util.h"
+#include "../../cam_utils/cam_packet_util.h"
 
 
 static int cam_sensor_update_req_mgr(

@@ -7,19 +7,19 @@
 #include <linux/slab.h>
 #include <media/cam_tfe.h>
 #include <media/cam_isp_tfe.h>
-#include "cam_io_util.h"
-#include "cam_debug_util.h"
-#include "cam_cdm_util.h"
-#include "cam_hw_intf.h"
-#include "cam_isp_hw_mgr_intf.h"
-#include "cam_tfe_hw_intf.h"
-#include "cam_irq_controller.h"
-#include "cam_tasklet_util.h"
+#include "../../../../cam_utils/cam_io_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../cam_cdm/cam_cdm_util.h"
+#include "../../../../cam_core/cam_hw_intf.h"
+#include "../../include/cam_isp_hw_mgr_intf.h"
+#include "../include/cam_tfe_hw_intf.h"
+#include "../../hw_utils/irq_controller/cam_irq_controller.h"
+#include "../../hw_utils/include/cam_tasklet_util.h"
 #include "cam_tfe_bus.h"
 #include "cam_tfe_irq.h"
 #include "cam_tfe_soc.h"
-#include "cam_debug_util.h"
-#include "cam_cpas_api.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
 
 
 static const char drv_name[] = "tfe_bus";

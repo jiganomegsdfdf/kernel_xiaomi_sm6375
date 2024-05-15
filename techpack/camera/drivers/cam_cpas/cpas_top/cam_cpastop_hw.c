@@ -7,12 +7,12 @@
 #include <linux/timer.h>
 #include <linux/slab.h>
 
-#include "cam_compat.h"
-#include "cam_cpas_hw_intf.h"
-#include "cam_cpas_hw.h"
+#include "../../cam_utils/cam_compat.h"
+#include "../cam_cpas_hw_intf.h"
+#include "../cam_cpas_hw.h"
 #include "cam_cpastop_hw.h"
-#include "cam_io_util.h"
-#include "cam_cpas_soc.h"
+#include "../../cam_utils/cam_io_util.h"
+#include "../cam_cpas_soc.h"
 #include "cpastop100.h"
 #include "cpastop_v150_100.h"
 #include "cpastop_v170_200.h"
@@ -33,8 +33,8 @@
 #include "cpastop_v570_200.h"
 #include "cpastop_v680_100.h"
 #include "cpastop_v165_100.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_common_util.h"
+#include "../../cam_req_mgr/cam_req_mgr_workq.h"
+#include "../../cam_utils/cam_common_util.h"
 
 struct cam_camnoc_info *camnoc_info;
 struct cam_cpas_camnoc_qchannel *qchannel_info;

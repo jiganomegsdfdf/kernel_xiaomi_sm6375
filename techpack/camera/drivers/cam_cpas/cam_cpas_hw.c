@@ -13,8 +13,8 @@
 #include "cam_cpas_hw.h"
 #include "cam_cpas_hw_intf.h"
 #include "cam_cpas_soc.h"
-#include "cam_req_mgr_dev.h"
-#include "cam_smmu_api.h"
+#include "../cam_req_mgr/cam_req_mgr_dev.h"
+#include "../cam_smmu/cam_smmu_api.h"
 
 static uint cam_min_camnoc_ib_bw;
 module_param(cam_min_camnoc_ib_bw, uint, 0644);

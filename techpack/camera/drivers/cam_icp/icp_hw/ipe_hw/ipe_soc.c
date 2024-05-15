@@ -9,8 +9,8 @@
 #include <media/cam_defs.h>
 #include <media/cam_icp.h>
 #include "ipe_soc.h"
-#include "cam_soc_util.h"
-#include "cam_debug_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
+#include "../../../cam_utils/cam_debug_util.h"
 
 
 int cam_ipe_transfer_gdsc_control(struct cam_hw_soc_info *soc_info)

@@ -9,13 +9,13 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-#include "cam_node.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_jpeg_hw_mgr_intf.h"
+#include "../cam_core/cam_node.h"
+#include "../cam_core/cam_hw_mgr_intf.h"
+#include "jpeg_hw/include/cam_jpeg_hw_mgr_intf.h"
 #include "cam_jpeg_dev.h"
-#include "cam_debug_util.h"
-#include "cam_smmu_api.h"
-#include "camera_main.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_smmu/cam_smmu_api.h"
+#include "../camera_main.h"
 
 #define CAM_JPEG_DEV_NAME "cam-jpeg"
 

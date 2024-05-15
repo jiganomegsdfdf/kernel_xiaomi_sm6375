@@ -10,16 +10,16 @@
 #include <linux/timer.h>
 #include "ope_core.h"
 #include "ope_soc.h"
-#include "cam_hw.h"
+#include "../../../cam_core/cam_hw.h"
 #include "ope_hw.h"
-#include "cam_hw_intf.h"
-#include "cam_io_util.h"
-#include "cam_ope_hw_mgr_intf.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
+#include "../../../cam_core/cam_hw_intf.h"
+#include "../../../cam_utils/cam_io_util.h"
+#include "../cam_ope_hw_mgr_intf.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../cam_utils/cam_debug_util.h"
 #include "ope_hw_100.h"
 #include "ope_dev_intf.h"
-#include "camera_main.h"
+#include "../../../camera_main.h"
 
 static struct cam_ope_hw_intf_data cam_ope_dev_list[OPE_DEV_MAX];
 static struct cam_ope_device_hw_info ope_hw_info;

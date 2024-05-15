@@ -6,7 +6,7 @@
 #ifndef _CAM_SFE_TOP_H_
 #define _CAM_SFE_TOP_H_
 
-#include "cam_cpas_api.h"
+#include "../../../../../cam_cpas/include/cam_cpas_api.h"
 
 #define CAM_SFE_PIX_VER_1_0    0x10
 #define CAM_SFE_RDI_VER_1_0    0x1000

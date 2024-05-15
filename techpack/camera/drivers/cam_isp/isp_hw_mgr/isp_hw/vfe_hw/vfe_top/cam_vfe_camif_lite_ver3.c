@@ -5,19 +5,19 @@
 
 #include <linux/slab.h>
 #include <media/cam_isp.h>
-#include "cam_io_util.h"
-#include "cam_isp_hw_mgr_intf.h"
-#include "cam_isp_hw.h"
-#include "cam_vfe_hw_intf.h"
-#include "cam_vfe_soc.h"
-#include "cam_vfe_top.h"
+#include "../../../../../cam_utils/cam_io_util.h"
+#include "../../../include/cam_isp_hw_mgr_intf.h"
+#include "../../include/cam_isp_hw.h"
+#include "../../include/cam_vfe_hw_intf.h"
+#include "../cam_vfe_soc.h"
+#include "include/cam_vfe_top.h"
 #include "cam_vfe_top_ver3.h"
-#include "cam_irq_controller.h"
-#include "cam_tasklet_util.h"
+#include "../../../hw_utils/irq_controller/cam_irq_controller.h"
+#include "../../../hw_utils/include/cam_tasklet_util.h"
 #include "cam_vfe_camif_lite_ver3.h"
-#include "cam_debug_util.h"
-#include "cam_cdm_util.h"
-#include "cam_cpas_api.h"
+#include "../../../../../cam_utils/cam_debug_util.h"
+#include "../../../../../cam_cdm/cam_cdm_util.h"
+#include "../../../../../cam_cpas/include/cam_cpas_api.h"
 
 struct cam_vfe_mux_camif_lite_data {
 	void __iomem                                *mem_base;

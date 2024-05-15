@@ -6,8 +6,8 @@
 #ifndef _CAM_CUSTOM_CSID_DEV_H_
 #define _CAM_CUSTOM_CSID_DEV_H_
 
-#include "cam_debug_util.h"
-#include "cam_custom_hw_mgr_intf.h"
+#include "../../../cam_utils/cam_debug_util.h"
+#include "../include/cam_custom_hw_mgr_intf.h"
 
 /**
  * @brief : API to register Custom CSID hw to platform framework.

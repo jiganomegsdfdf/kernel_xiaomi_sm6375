@@ -8,7 +8,7 @@
 #include "cam_ife_csid_lite480.h"
 #include "cam_ife_csid_core.h"
 #include "cam_ife_csid_dev.h"
-#include "camera_main.h"
+#include "../../../../camera_main.h"
 
 #define CAM_CSID_LITE_DRV_NAME                    "csid_lite"
 

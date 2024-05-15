@@ -11,8 +11,8 @@
 #include <media/cam_custom.h>
 #include <media/cam_defs.h>
 
-#include "cam_context.h"
-#include "cam_custom_hw_mgr_intf.h"
+#include "../cam_core/cam_context.h"
+#include "cam_custom_hw_mgr/include/cam_custom_hw_mgr_intf.h"
 
 /*
  * Maximum hw resource - This number is based on the maximum

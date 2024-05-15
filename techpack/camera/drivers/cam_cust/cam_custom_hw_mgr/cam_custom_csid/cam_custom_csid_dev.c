@@ -9,12 +9,12 @@
 #include <linux/of_device.h>
 #include "linux/module.h"
 #include "cam_custom_csid_dev.h"
-#include "cam_ife_csid_core.h"
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
+#include "../../../cam_isp/isp_hw_mgr/isp_hw/ife_csid_hw/cam_ife_csid_core.h"
+#include "../../../cam_core/cam_hw.h"
+#include "../../../cam_core/cam_hw_intf.h"
 #include "cam_custom_csid480.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
+#include "../../../cam_utils/cam_debug_util.h"
+#include "../../../camera_main.h"
 
 #define CAM_CUSTOM_CSID_DRV_NAME  "custom_csid"
 

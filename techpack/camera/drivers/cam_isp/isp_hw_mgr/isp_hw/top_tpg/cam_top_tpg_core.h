@@ -6,8 +6,8 @@
 #ifndef _CAM_TOP_TPG_CORE_H_
 #define _CAM_TOP_TPG_CORE_H_
 
-#include "cam_hw.h"
-#include "cam_top_tpg_hw_intf.h"
+#include "../../../../cam_core/cam_hw.h"
+#include "../include/cam_top_tpg_hw_intf.h"
 #include "cam_top_tpg_soc.h"
 
 #define CAM_TOP_TPG_VERSION_1             0x10000001

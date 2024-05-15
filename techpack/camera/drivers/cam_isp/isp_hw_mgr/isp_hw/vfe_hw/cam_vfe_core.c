@@ -8,15 +8,15 @@
 #include <linux/list.h>
 #include <linux/timer.h>
 #include <linux/ratelimit.h>
-#include "cam_tasklet_util.h"
-#include "cam_isp_hw_mgr_intf.h"
+#include "../../hw_utils/include/cam_tasklet_util.h"
+#include "../../include/cam_isp_hw_mgr_intf.h"
 #include "cam_vfe_soc.h"
 #include "cam_vfe_core.h"
-#include "cam_vfe_bus.h"
-#include "cam_vfe_top.h"
-#include "cam_ife_hw_mgr.h"
-#include "cam_debug_util.h"
-#include "cam_cpas_api.h"
+#include "vfe_bus/include/cam_vfe_bus.h"
+#include "vfe_top/include/cam_vfe_top.h"
+#include "../../cam_ife_hw_mgr.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
 #include <dt-bindings/msm/msm-camera.h>
 
 

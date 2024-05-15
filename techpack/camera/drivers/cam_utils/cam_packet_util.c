@@ -7,7 +7,7 @@
 #include <linux/types.h>
 #include <linux/slab.h>
 
-#include "cam_mem_mgr.h"
+#include "../cam_req_mgr/cam_mem_mgr.h"
 #include "cam_packet_util.h"
 #include "cam_debug_util.h"
 

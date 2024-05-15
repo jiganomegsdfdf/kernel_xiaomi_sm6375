@@ -9,18 +9,18 @@
 #include <linux/types.h>
 #include <linux/completion.h>
 #include <media/cam_ope.h>
-#include "ope_hw.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_hw_intf.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_mem_mgr.h"
-#include "cam_smmu_api.h"
-#include "cam_soc_util.h"
-#include "cam_req_mgr_timer.h"
-#include "cam_context.h"
-#include "ope_hw.h"
-#include "cam_cdm_intf_api.h"
-#include "cam_req_mgr_timer.h"
+#include "ope_hw/ope_hw.h"
+#include "../../cam_core/cam_hw_mgr_intf.h"
+#include "../../cam_core/cam_hw_intf.h"
+#include "../../cam_req_mgr/cam_req_mgr_workq.h"
+#include "../../cam_req_mgr/cam_mem_mgr.h"
+#include "../../cam_smmu/cam_smmu_api.h"
+#include "../../cam_utils/cam_soc_util.h"
+#include "../../cam_req_mgr/cam_req_mgr_timer.h"
+#include "../../cam_core/cam_context.h"
+#include "ope_hw/ope_hw.h"
+#include "../../cam_cdm/cam_cdm_intf_api.h"
+#include "../../cam_req_mgr/cam_req_mgr_timer.h"
 
 #define OPE_CTX_MAX               32
 #define CAM_FRAME_CMD_MAX         20

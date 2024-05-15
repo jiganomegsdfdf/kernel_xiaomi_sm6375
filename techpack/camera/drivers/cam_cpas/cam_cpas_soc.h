@@ -6,7 +6,7 @@
 #ifndef _CAM_CPAS_SOC_H_
 #define _CAM_CPAS_SOC_H_
 
-#include "cam_soc_util.h"
+#include "../cam_utils/cam_soc_util.h"
 #include "cam_cpas_hw.h"
 
 #define CAM_REGULATOR_LEVEL_MAX 16

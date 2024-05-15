@@ -7,7 +7,7 @@
 #define _CAM_TFE_HW_INTF_H_
 
 #include "cam_isp_hw.h"
-#include "cam_cpas_api.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
 
 #define CAM_TFE_HW_NUM_MAX            3
 #define TFE_CORE_BASE_IDX             0

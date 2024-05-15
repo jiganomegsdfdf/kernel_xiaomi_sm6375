@@ -25,10 +25,10 @@
 #include "cam_req_mgr_core.h"
 #include "cam_subdev.h"
 #include "cam_mem_mgr.h"
-#include "cam_debug_util.h"
-#include "cam_common_util.h"
-#include "cam_compat.h"
-#include "cam_cpas_hw.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_utils/cam_common_util.h"
+#include "../cam_utils/cam_compat.h"
+#include "../cam_cpas/cam_cpas_hw.h"
 
 #define CAM_REQ_MGR_EVENT_MAX 90
 

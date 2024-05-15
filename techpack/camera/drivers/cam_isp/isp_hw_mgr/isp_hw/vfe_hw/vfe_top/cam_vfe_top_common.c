@@ -4,7 +4,7 @@
  */
 
 #include "cam_vfe_top_common.h"
-#include "cam_debug_util.h"
+#include "../../../../../cam_utils/cam_debug_util.h"
 
 static struct cam_axi_vote *cam_vfe_top_delay_bw_reduction(
 	struct cam_vfe_top_priv_common *top_common,

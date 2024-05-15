@@ -9,8 +9,8 @@
 #include "cam_tfe_dev.h"
 #include "cam_tfe_core.h"
 #include "cam_tfe_soc.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../camera_main.h"
 
 static struct cam_isp_hw_intf_data  cam_tfe_hw_list[CAM_TFE_HW_NUM_MAX];
 

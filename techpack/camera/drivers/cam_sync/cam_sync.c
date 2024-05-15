@@ -14,10 +14,10 @@
 #endif
 
 #include "cam_sync_util.h"
-#include "cam_debug_util.h"
-#include "cam_common_util.h"
-#include "camera_main.h"
-#include "cam_req_mgr_workq.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_utils/cam_common_util.h"
+#include "../camera_main.h"
+#include "../cam_req_mgr/cam_req_mgr_workq.h"
 
 struct sync_device *sync_dev;
 

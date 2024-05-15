@@ -17,18 +17,18 @@
 #include <media/cam_jpeg.h>
 #include <media/cam_sync.h>
 
-#include "cam_packet_util.h"
-#include "cam_hw.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_jpeg_hw_mgr_intf.h"
+#include "../../cam_utils/cam_packet_util.h"
+#include "../../cam_core/cam_hw.h"
+#include "../../cam_core/cam_hw_mgr_intf.h"
+#include "include/cam_jpeg_hw_mgr_intf.h"
 #include "cam_jpeg_hw_mgr.h"
-#include "cam_smmu_api.h"
-#include "cam_mem_mgr.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_mem_mgr.h"
-#include "cam_cdm_intf_api.h"
-#include "cam_debug_util.h"
-#include "cam_common_util.h"
+#include "../../cam_smmu/cam_smmu_api.h"
+#include "../../cam_req_mgr/cam_mem_mgr.h"
+#include "../../cam_req_mgr/cam_req_mgr_workq.h"
+#include "../../cam_req_mgr/cam_mem_mgr.h"
+#include "../../cam_cdm/cam_cdm_intf_api.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../../cam_utils/cam_common_util.h"
 
 #define CAM_JPEG_HW_ENTRIES_MAX  20
 #define CAM_JPEG_CHBASE          0

@@ -15,20 +15,20 @@
 #include <linux/elf.h>
 #include <linux/iopoll.h>
 #include <media/cam_icp.h>
-#include "cam_io_util.h"
-#include "cam_a5_hw_intf.h"
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
+#include "../../../cam_utils/cam_io_util.h"
+#include "../icp_hw_mgr/include/cam_a5_hw_intf.h"
+#include "../../../cam_core/cam_hw.h"
+#include "../../../cam_core/cam_hw_intf.h"
 #include "a5_core.h"
 #include "a5_reg.h"
 #include "a5_soc.h"
-#include "cam_soc_util.h"
-#include "cam_io_util.h"
-#include "hfi_intf.h"
-#include "hfi_sys_defs.h"
-#include "cam_icp_hw_mgr_intf.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
+#include "../../../cam_utils/cam_io_util.h"
+#include "../../fw_inc/hfi_intf.h"
+#include "../../fw_inc/hfi_sys_defs.h"
+#include "../include/cam_icp_hw_mgr_intf.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../cam_utils/cam_debug_util.h"
 
 #define PC_POLL_DELAY_US 100
 #define PC_POLL_TIMEOUT_US 10000

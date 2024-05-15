@@ -3,9 +3,9 @@
  * Copyright (c) 2017-2020, The Linux Foundation. All rights reserved.
  */
 
-#include "cam_isp_hw_mgr_intf.h"
+#include "include/cam_isp_hw_mgr_intf.h"
 #include "cam_ife_hw_mgr.h"
-#include "cam_debug_util.h"
+#include "../../cam_utils/cam_debug_util.h"
 #include "cam_tfe_hw_mgr.h"
 
 

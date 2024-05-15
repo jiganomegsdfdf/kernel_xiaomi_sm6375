@@ -6,7 +6,7 @@
 #ifndef CAM_OPE_SOC_H
 #define CAM_OPE_SOC_H
 
-#include "cam_soc_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
 
 #define CAM_OPE_HW_MAX_NUM_PID 2
 

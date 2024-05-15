@@ -25,17 +25,17 @@
 #include <linux/leds-qti-flash.h>
 #endif
 
-#include "cam_req_mgr_util.h"
-#include "cam_req_mgr_interface.h"
-#include "cam_subdev.h"
-#include "cam_mem_mgr.h"
-#include "cam_sensor_cmn_header.h"
-#include "cam_sensor_util.h"
-#include "cam_soc_util.h"
-#include "cam_debug_util.h"
-#include "cam_sensor_io.h"
+#include "../../cam_req_mgr/cam_req_mgr_util.h"
+#include "../../cam_req_mgr/cam_req_mgr_interface.h"
+#include "../../cam_req_mgr/cam_subdev.h"
+#include "../../cam_req_mgr/cam_mem_mgr.h"
+#include "../cam_sensor_utils/cam_sensor_cmn_header.h"
+#include "../cam_sensor_utils/cam_sensor_util.h"
+#include "../../cam_utils/cam_soc_util.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../cam_sensor_io/cam_sensor_io.h"
 #include "cam_flash_core.h"
-#include "cam_context.h"
+#include "../../cam_core/cam_context.h"
 
 #define CAMX_FLASH_DEV_NAME "cam-flash-dev"
 

@@ -6,7 +6,7 @@
 #include <linux/of.h>
 #include <linux/of_gpio.h>
 #include "cam_flash_soc.h"
-#include "cam_res_mgr_api.h"
+#include "../cam_res_mgr/cam_res_mgr_api.h"
 #include <dt-bindings/msm/msm-camera.h>
 
 void cam_flash_put_source_node_data(struct cam_flash_ctrl *fctrl)

@@ -10,14 +10,14 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-#include "cam_subdev.h"
+#include "../../../cam_req_mgr/cam_subdev.h"
 #include "cam_fd_hw_intf.h"
 #include "cam_fd_hw_core.h"
 #include "cam_fd_hw_soc.h"
 #include "cam_fd_hw_v41.h"
 #include "cam_fd_hw_v501.h"
 #include "cam_fd_hw_v600.h"
-#include "camera_main.h"
+#include "../../../camera_main.h"
 
 static char fd_dev_name[8];
 

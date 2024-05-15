@@ -5,7 +5,7 @@
 
 #include "cam_fd_hw_core.h"
 #include "cam_fd_hw_soc.h"
-#include "cam_trace.h"
+#include "../../../cam_utils/cam_trace.h"
 
 #define CAM_FD_REG_VAL_PAIR_SIZE 256
 

@@ -6,8 +6,8 @@
 #ifndef _CAM_VFE_RDI_H_
 #define _CAM_VFE_RDI_H_
 
-#include "cam_isp_hw.h"
-#include "cam_vfe_top.h"
+#include "../../include/cam_isp_hw.h"
+#include "include/cam_vfe_top.h"
 
 #define CAM_VFE_RDI_VER2_MAX  4
 

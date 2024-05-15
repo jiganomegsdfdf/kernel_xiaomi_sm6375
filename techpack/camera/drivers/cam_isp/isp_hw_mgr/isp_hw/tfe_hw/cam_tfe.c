@@ -5,10 +5,10 @@
 
 #include <linux/module.h>
 #include "cam_tfe530.h"
-#include "cam_tfe_hw_intf.h"
+#include "../include/cam_tfe_hw_intf.h"
 #include "cam_tfe_core.h"
 #include "cam_tfe_dev.h"
-#include "camera_main.h"
+#include "../../../../camera_main.h"
 
 static const struct of_device_id cam_tfe_dt_match[] = {
 	{

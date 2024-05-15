@@ -10,11 +10,11 @@
 #include <linux/completion.h>
 #include <media/cam_jpeg.h>
 
-#include "cam_jpeg_hw_intf.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_hw_intf.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_mem_mgr.h"
+#include "include/cam_jpeg_hw_intf.h"
+#include "../../cam_core/cam_hw_mgr_intf.h"
+#include "../../cam_core/cam_hw_intf.h"
+#include "../../cam_req_mgr/cam_req_mgr_workq.h"
+#include "../../cam_req_mgr/cam_mem_mgr.h"
 
 #define CAM_JPEG_WORKQ_NUM_TASK      30
 #define CAM_JPEG_WORKQ_TASK_CMD_TYPE 1

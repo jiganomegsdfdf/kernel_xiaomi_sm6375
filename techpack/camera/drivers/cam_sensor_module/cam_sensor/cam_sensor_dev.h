@@ -18,12 +18,12 @@
 #include <media/v4l2-event.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-subdev.h>
-#include <cam_cci_dev.h>
-#include <cam_sensor_cmn_header.h>
-#include <cam_subdev.h>
-#include <cam_sensor_io.h>
-#include "cam_debug_util.h"
-#include "cam_context.h"
+#include "../cam_cci/cam_cci_dev.h"
+#include "../cam_sensor_utils/cam_sensor_cmn_header.h"
+#include "../../cam_req_mgr/cam_subdev.h"
+#include "../cam_sensor_io/cam_sensor_io.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../../cam_core/cam_context.h"
 
 #define NUM_MASTERS 2
 #define NUM_QUEUES 2

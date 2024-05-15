@@ -7,9 +7,9 @@
 #define _CAM_ISP_HW_MGR_H_
 
 #include <media/cam_defs.h>
-#include "cam_isp_hw_mgr_intf.h"
-#include "cam_tasklet_util.h"
-#include "cam_isp_hw.h"
+#include "include/cam_isp_hw_mgr_intf.h"
+#include "hw_utils/include/cam_tasklet_util.h"
+#include "isp_hw/include/cam_isp_hw.h"
 
 #define CAM_ISP_HW_NUM_MAX                       7
 

@@ -6,7 +6,7 @@
 #include <linux/timer.h>
 #include "cam_lrme_hw_core.h"
 #include "cam_lrme_hw_soc.h"
-#include "cam_smmu_api.h"
+#include "../../../cam_smmu/cam_smmu_api.h"
 
 static void cam_lrme_dump_registers(void __iomem *base)
 {

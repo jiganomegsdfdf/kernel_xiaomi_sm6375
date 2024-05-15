@@ -8,9 +8,9 @@
 
 #include <linux/irqreturn.h>
 #include "cam_csiphy_dev.h"
-#include <cam_mem_mgr.h>
-#include <cam_req_mgr_util.h>
-#include <cam_io_util.h>
+#include "../../cam_req_mgr/cam_mem_mgr.h"
+#include "../../cam_req_mgr/cam_req_mgr_util.h"
+#include "../../cam_utils/cam_io_util.h"
 
 /**
  * @csiphy_dev: CSIPhy device structure

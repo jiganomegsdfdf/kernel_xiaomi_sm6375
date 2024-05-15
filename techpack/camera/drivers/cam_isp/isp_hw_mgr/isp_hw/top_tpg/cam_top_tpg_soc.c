@@ -4,8 +4,8 @@
  */
 #include <linux/slab.h>
 #include "cam_top_tpg_soc.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../../cam_utils/cam_debug_util.h"
 
 int cam_top_tpg_init_soc_resources(struct cam_hw_soc_info *soc_info,
 	irq_handler_t tpg_irq_handler, void *irq_data)

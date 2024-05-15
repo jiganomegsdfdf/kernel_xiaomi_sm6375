@@ -12,9 +12,9 @@
 #include <media/cam_defs.h>
 #include <media/cam_tfe.h>
 
-#include "cam_context.h"
-#include "cam_isp_hw_mgr_intf.h"
-#include "cam_req_mgr_workq.h"
+#include "../cam_core/cam_context.h"
+#include "isp_hw_mgr/include/cam_isp_hw_mgr_intf.h"
+#include "../cam_req_mgr/cam_req_mgr_workq.h"
 
 #define CAM_IFE_QTIMER_MUL_FACTOR        10000
 #define CAM_IFE_QTIMER_DIV_FACTOR        192

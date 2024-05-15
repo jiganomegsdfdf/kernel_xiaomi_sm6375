@@ -7,8 +7,8 @@
 #include <linux/kernel.h>
 #include <clocksource/arm_arch_timer.h>
 #include "cam_sensor_util.h"
-#include "cam_mem_mgr.h"
-#include "cam_res_mgr_api.h"
+#include "../../cam_req_mgr/cam_mem_mgr.h"
+#include "../cam_res_mgr/cam_res_mgr_api.h"
 
 #define CAM_SENSOR_PINCTRL_STATE_SLEEP "cam_suspend"
 #define CAM_SENSOR_PINCTRL_STATE_DEFAULT "cam_default"

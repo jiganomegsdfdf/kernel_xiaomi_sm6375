@@ -4,11 +4,11 @@
  */
 
 #include "cam_ois_dev.h"
-#include "cam_req_mgr_dev.h"
+#include "../../cam_req_mgr/cam_req_mgr_dev.h"
 #include "cam_ois_soc.h"
 #include "cam_ois_core.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../../camera_main.h"
 
 static int cam_ois_subdev_close_internal(struct v4l2_subdev *sd,
 	struct v4l2_subdev_fh *fh)

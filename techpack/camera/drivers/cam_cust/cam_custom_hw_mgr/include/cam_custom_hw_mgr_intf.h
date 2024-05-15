@@ -10,9 +10,9 @@
 #include <linux/time.h>
 #include <linux/list.h>
 #include <media/cam_custom.h>
-#include "cam_hw.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_hw_intf.h"
+#include "../../../cam_core/cam_hw.h"
+#include "../../../cam_core/cam_hw_mgr_intf.h"
+#include "../../../cam_core/cam_hw_intf.h"
 #include "cam_custom_hw.h"
 
 #define CAM_CUSTOM_HW_TYPE_1   1

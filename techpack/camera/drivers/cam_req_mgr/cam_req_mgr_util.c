@@ -14,8 +14,8 @@
 #include <linux/random.h>
 #include <media/cam_req_mgr.h>
 #include "cam_req_mgr_util.h"
-#include "cam_debug_util.h"
-#include "cam_context.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_core/cam_context.h"
 #include "cam_subdev.h"
 
 static struct cam_req_mgr_util_hdl_tbl *hdl_tbl;

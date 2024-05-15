@@ -8,8 +8,8 @@
 
 #include <linux/list.h>
 #include <linux/leds.h>
-#include "cam_soc_util.h"
-#include "cam_sensor_util.h"
+#include "../../cam_utils/cam_soc_util.h"
+#include "../cam_sensor_utils/cam_sensor_util.h"
 
 #define MAX_SHARED_GPIO_SIZE         16
 #define MAX_SHARED_PCTRL_GPIO_SIZE   10

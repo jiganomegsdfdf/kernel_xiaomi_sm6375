@@ -11,8 +11,8 @@
 #include "cam_sfe_core.h"
 #include "cam_sfe_soc.h"
 #include "cam_sfe680.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../camera_main.h"
 
 static struct cam_hw_intf *cam_sfe_hw_list[CAM_SFE_HW_NUM_MAX];
 

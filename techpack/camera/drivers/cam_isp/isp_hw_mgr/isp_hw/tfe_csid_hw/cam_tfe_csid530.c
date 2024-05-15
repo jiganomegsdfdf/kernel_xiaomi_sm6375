@@ -8,7 +8,7 @@
 #include "cam_tfe_csid_core.h"
 #include "cam_tfe_csid530.h"
 #include "cam_tfe_csid_dev.h"
-#include "camera_main.h"
+#include "../../../../camera_main.h"
 
 #define CAM_TFE_CSID_DRV_NAME                    "csid_530"
 #define CAM_TFE_CSID_VERSION_V530                 0x50030000

@@ -8,9 +8,9 @@
 #include <linux/of_device.h>
 #include "cam_top_tpg_core.h"
 #include "cam_top_tpg_dev.h"
-#include "cam_top_tpg_hw_intf.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
+#include "../include/cam_top_tpg_hw_intf.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../camera_main.h"
 
 static struct cam_hw_intf *cam_top_tpg_hw_list[CAM_TOP_TPG_HW_NUM_MAX] = {
 	0, 0};

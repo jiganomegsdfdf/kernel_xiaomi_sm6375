@@ -10,13 +10,13 @@
 #include <linux/kernel.h>
 
 #include <media/cam_fd.h>
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_fd_hw_intf.h"
+#include "../../cam_core/cam_hw.h"
+#include "../../cam_core/cam_hw_intf.h"
+#include "../../cam_cpas/include/cam_cpas_api.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../../cam_core/cam_hw_mgr_intf.h"
+#include "../../cam_req_mgr/cam_req_mgr_workq.h"
+#include "fd_hw/cam_fd_hw_intf.h"
 
 #define CAM_FD_HW_MAX            1
 #define CAM_FD_WORKQ_NUM_TASK    10

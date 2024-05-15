@@ -7,7 +7,7 @@
 #define _CAM_CCI_SOC_H_
 
 #include "cam_cci_core.h"
-#include "cam_soc_util.h"
+#include "../../cam_utils/cam_soc_util.h"
 
 /**
  * @sd: V4L2 sub device

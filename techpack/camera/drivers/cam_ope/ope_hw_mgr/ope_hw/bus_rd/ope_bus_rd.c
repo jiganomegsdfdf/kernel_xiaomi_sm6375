@@ -13,18 +13,18 @@
 #include <linux/timer.h>
 #include <linux/iopoll.h>
 #include <media/cam_ope.h>
-#include "cam_io_util.h"
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
-#include "ope_core.h"
-#include "ope_soc.h"
-#include "cam_soc_util.h"
-#include "cam_io_util.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
-#include "cam_cdm_util.h"
-#include "ope_hw.h"
-#include "ope_dev_intf.h"
+#include "../../../../cam_utils/cam_io_util.h"
+#include "../../../../cam_core/cam_hw.h"
+#include "../../../../cam_core/cam_hw_intf.h"
+#include "../ope_core.h"
+#include "../ope_soc.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../../../../cam_utils/cam_io_util.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../cam_cdm/cam_cdm_util.h"
+#include "../ope_hw.h"
+#include "../ope_dev_intf.h"
 #include "ope_bus_rd.h"
 
 static struct ope_bus_rd *bus_rd;

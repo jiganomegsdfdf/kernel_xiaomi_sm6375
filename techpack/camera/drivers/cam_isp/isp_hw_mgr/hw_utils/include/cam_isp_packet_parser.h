@@ -8,11 +8,11 @@
 
 #include <linux/types.h>
 #include <media/cam_isp.h>
-#include "cam_isp_hw_mgr_intf.h"
-#include "cam_isp_hw_mgr.h"
-#include "cam_hw_intf.h"
-#include "cam_packet_util.h"
-#include "cam_cdm_intf_api.h"
+#include "../../include/cam_isp_hw_mgr_intf.h"
+#include "../../cam_isp_hw_mgr.h"
+#include "../../../../cam_core/cam_hw_intf.h"
+#include "../../../../cam_utils/cam_packet_util.h"
+#include "../../../../cam_cdm/cam_cdm_intf_api.h"
 
 /* enum cam_isp_cdm_bl_type - isp cdm packet type*/
 enum cam_isp_cdm_bl_type {

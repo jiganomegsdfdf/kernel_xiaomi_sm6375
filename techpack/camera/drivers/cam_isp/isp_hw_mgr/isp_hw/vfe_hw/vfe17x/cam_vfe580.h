@@ -7,8 +7,8 @@
 #ifndef _CAM_VFE580_H_
 #define _CAM_VFE580_H_
 #include "cam_vfe480.h"
-#include "cam_vfe_top_ver3.h"
-#include "cam_vfe_core.h"
+#include "../vfe_top/cam_vfe_top_ver3.h"
+#include "../cam_vfe_core.h"
 
 static struct cam_vfe_camif_ver3_reg_data vfe_580_camif_reg_data = {
 	.pp_extern_reg_update_shift      = 4,

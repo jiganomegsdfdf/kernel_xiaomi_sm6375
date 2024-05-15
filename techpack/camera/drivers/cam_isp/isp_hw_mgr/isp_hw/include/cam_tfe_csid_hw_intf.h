@@ -7,7 +7,7 @@
 #define _CAM_TFE_CSID_HW_INTF_H_
 
 #include "cam_isp_hw.h"
-#include "cam_hw_intf.h"
+#include "../../../../cam_core/cam_hw_intf.h"
 
 /* MAX TFE CSID instance */
 #define CAM_TFE_CSID_HW_NUM_MAX                        3

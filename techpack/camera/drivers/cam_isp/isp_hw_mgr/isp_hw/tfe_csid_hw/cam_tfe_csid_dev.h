@@ -6,7 +6,7 @@
 #ifndef _CAM_TFE_CSID_DEV_H_
 #define _CAM_TFE_CSID_DEV_H_
 
-#include "cam_isp_hw.h"
+#include "../include/cam_isp_hw.h"
 
 irqreturn_t cam_tfe_csid_irq(int irq_num, void *data);
 

@@ -6,7 +6,7 @@
 #ifndef _CAM_BPS_SOC_H_
 #define _CAM_BPS_SOC_H_
 
-#include "cam_soc_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
 
 int cam_bps_init_soc_resources(struct cam_hw_soc_info *soc_info,
 	irq_handler_t bps_irq_handler, void *irq_data);

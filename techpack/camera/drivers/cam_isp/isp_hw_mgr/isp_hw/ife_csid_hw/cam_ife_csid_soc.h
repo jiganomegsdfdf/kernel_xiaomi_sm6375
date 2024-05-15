@@ -6,7 +6,7 @@
 #ifndef _CAM_IFE_CSID_SOC_H_
 #define _CAM_IFE_CSID_SOC_H_
 
-#include "cam_isp_hw.h"
+#include "../include/cam_isp_hw.h"
 
 /*
  * struct cam_csid_soc_private:

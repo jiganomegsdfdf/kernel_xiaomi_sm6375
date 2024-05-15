@@ -10,15 +10,15 @@
 #include <media/cam_req_mgr.h>
 #include <media/cam_sync.h>
 
-#include "cam_io_util.h"
-#include "cam_soc_util.h"
-#include "cam_mem_mgr_api.h"
-#include "cam_smmu_api.h"
-#include "cam_packet_util.h"
-#include "cam_lrme_context.h"
-#include "cam_lrme_hw_intf.h"
-#include "cam_lrme_hw_core.h"
-#include "cam_lrme_hw_soc.h"
+#include "../../cam_utils/cam_io_util.h"
+#include "../../cam_utils/cam_soc_util.h"
+#include "../../cam_req_mgr/cam_mem_mgr_api.h"
+#include "../../cam_smmu/cam_smmu_api.h"
+#include "../../cam_utils/cam_packet_util.h"
+#include "../cam_lrme_context.h"
+#include "lrme_hw/cam_lrme_hw_intf.h"
+#include "lrme_hw/cam_lrme_hw_core.h"
+#include "lrme_hw/cam_lrme_hw_soc.h"
 #include "cam_lrme_hw_mgr_intf.h"
 #include "cam_lrme_hw_mgr.h"
 

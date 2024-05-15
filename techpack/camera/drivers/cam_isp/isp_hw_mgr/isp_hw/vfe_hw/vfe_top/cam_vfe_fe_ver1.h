@@ -6,8 +6,8 @@
 #ifndef _CAM_VFE_FE_VER1_H_
 #define _CAM_VFE_FE_VER1_H_
 
-#include "cam_isp_hw.h"
-#include "cam_vfe_top.h"
+#include "../../include/cam_isp_hw.h"
+#include "include/cam_vfe_top.h"
 
 struct cam_vfe_fe_ver1_reg {
 	uint32_t     camif_cmd;

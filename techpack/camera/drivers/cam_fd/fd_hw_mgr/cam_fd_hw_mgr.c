@@ -10,18 +10,18 @@
 #include <media/cam_req_mgr.h>
 #include <media/cam_sync.h>
 
-#include "cam_io_util.h"
-#include "cam_soc_util.h"
-#include "cam_mem_mgr_api.h"
-#include "cam_smmu_api.h"
-#include "cam_packet_util.h"
-#include "cam_fd_context.h"
-#include "cam_fd_hw_intf.h"
-#include "cam_fd_hw_core.h"
-#include "cam_fd_hw_soc.h"
+#include "../../cam_utils/cam_io_util.h"
+#include "../../cam_utils/cam_soc_util.h"
+#include "../../cam_req_mgr/cam_mem_mgr_api.h"
+#include "../../cam_smmu/cam_smmu_api.h"
+#include "../../cam_utils/cam_packet_util.h"
+#include "../cam_fd_context.h"
+#include "fd_hw/cam_fd_hw_intf.h"
+#include "fd_hw/cam_fd_hw_core.h"
+#include "fd_hw/cam_fd_hw_soc.h"
 #include "cam_fd_hw_mgr_intf.h"
 #include "cam_fd_hw_mgr.h"
-#include "cam_trace.h"
+#include "../../cam_utils/cam_trace.h"
 
 static struct cam_fd_hw_mgr g_fd_hw_mgr;
 

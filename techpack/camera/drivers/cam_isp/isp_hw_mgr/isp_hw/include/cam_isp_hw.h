@@ -8,11 +8,11 @@
 
 #include <linux/completion.h>
 #include <media/cam_isp.h>
-#include "cam_hw.h"
-#include "cam_soc_util.h"
-#include "cam_irq_controller.h"
-#include "cam_hw_intf.h"
-#include "cam_cdm_intf_api.h"
+#include "../../../../cam_core/cam_hw.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../../hw_utils/irq_controller/cam_irq_controller.h"
+#include "../../../../cam_core/cam_hw_intf.h"
+#include "../../../../cam_cdm/cam_cdm_intf_api.h"
 
 /* Maximum length of tag while dumping */
 #define CAM_ISP_HW_DUMP_TAG_MAX_LEN 32

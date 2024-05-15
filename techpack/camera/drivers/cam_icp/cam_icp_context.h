@@ -6,7 +6,7 @@
 #ifndef _CAM_ICP_CONTEXT_H_
 #define _CAM_ICP_CONTEXT_H_
 
-#include "cam_context.h"
+#include "../cam_core/cam_context.h"
 
 /**
  * struct cam_icp_context - icp context

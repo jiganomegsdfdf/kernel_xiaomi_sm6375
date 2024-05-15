@@ -12,13 +12,13 @@
 #include <media/cam_icp.h>
 #include <linux/iopoll.h>
 
-#include "cam_io_util.h"
-#include "hfi_reg.h"
-#include "hfi_sys_defs.h"
-#include "hfi_session_defs.h"
-#include "hfi_intf.h"
-#include "cam_icp_hw_mgr_intf.h"
-#include "cam_debug_util.h"
+#include "../cam_utils/cam_io_util.h"
+#include "fw_inc/hfi_reg.h"
+#include "fw_inc/hfi_sys_defs.h"
+#include "fw_inc/hfi_session_defs.h"
+#include "fw_inc/hfi_intf.h"
+#include "icp_hw/include/cam_icp_hw_mgr_intf.h"
+#include "../cam_utils/cam_debug_util.h"
 
 #define HFI_VERSION_INFO_MAJOR_VAL  1
 #define HFI_VERSION_INFO_MINOR_VAL  1

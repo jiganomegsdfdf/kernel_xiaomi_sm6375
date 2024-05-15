@@ -9,10 +9,10 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 #include <linux/gpio.h>
-#include "cam_debug_util.h"
+#include "../../cam_utils/cam_debug_util.h"
 #include "cam_res_mgr_api.h"
 #include "cam_res_mgr_private.h"
-#include "camera_main.h"
+#include "../../camera_main.h"
 
 static struct cam_res_mgr *cam_res;
 

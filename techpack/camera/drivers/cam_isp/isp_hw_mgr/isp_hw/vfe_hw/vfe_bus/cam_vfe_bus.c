@@ -3,12 +3,12 @@
  * Copyright (c) 2017-2019, The Linux Foundation. All rights reserved.
  */
 
-#include "cam_vfe_bus.h"
+#include "include/cam_vfe_bus.h"
 #include "cam_vfe_bus_ver1.h"
 #include "cam_vfe_bus_ver2.h"
 #include "cam_vfe_bus_rd_ver1.h"
 #include "cam_vfe_bus_ver3.h"
-#include "cam_debug_util.h"
+#include "../../../../../cam_utils/cam_debug_util.h"
 
 int cam_vfe_bus_init(uint32_t          bus_version,
 	int                            bus_type,

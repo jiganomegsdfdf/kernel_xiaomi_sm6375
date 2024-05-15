@@ -10,9 +10,9 @@
 
 #include "cam_eeprom_core.h"
 #include "cam_eeprom_soc.h"
-#include "cam_debug_util.h"
-#include "cam_common_util.h"
-#include "cam_packet_util.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../../cam_utils/cam_common_util.h"
+#include "../../cam_utils/cam_packet_util.h"
 
 #define MAX_READ_SIZE  0x7FFFF
 

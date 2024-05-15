@@ -9,9 +9,9 @@
 #define CAM_VFE_TOP_MUX_MAX 6
 #define CAM_VFE_DELAY_BW_REDUCTION_NUM_FRAMES 18
 
-#include "cam_cpas_api.h"
-#include "cam_vfe_hw_intf.h"
-#include "cam_vfe_soc.h"
+#include "../../../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../include/cam_vfe_hw_intf.h"
+#include "../cam_vfe_soc.h"
 
 #define CAM_VFE_TOP_MAX_REG_DUMP_ENTRIES 70
 

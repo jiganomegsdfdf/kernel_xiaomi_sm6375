@@ -6,7 +6,7 @@
 #ifndef _CAM_CSID_PPI_DEV_H_
 #define _CAM_CSID_PPI_DEV_H_
 
-#include "cam_isp_hw.h"
+#include "../include/cam_isp_hw.h"
 
 irqreturn_t cam_csid_ppi_irq(int irq_num, void *data);
 int cam_csid_ppi_probe(struct platform_device *pdev);

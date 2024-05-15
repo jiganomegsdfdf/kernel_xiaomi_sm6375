@@ -7,8 +7,8 @@
 #define _CAM_SFE_HW_INTF_H_
 
 #include "cam_isp_hw.h"
-#include "cam_isp_hw_mgr_intf.h"
-#include "cam_cpas_api.h"
+#include "../../include/cam_isp_hw_mgr_intf.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
 
 #define SFE_CORE_BASE_IDX           0
 #define SFE_RT_CDM_BASE_IDX         1

@@ -9,7 +9,7 @@
 #include "cam_top_tpg103.h"
 #include "cam_top_tpg_core.h"
 #include "cam_top_tpg_dev.h"
-#include "camera_main.h"
+#include "../../../../camera_main.h"
 
 static const struct of_device_id cam_top_tpg_dt_match[] = {
 	{

@@ -11,21 +11,21 @@
 
 #include <media/cam_isp.h>
 
-#include "cam_compat.h"
-#include "cam_smmu_api.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_isp_hw_mgr_intf.h"
-#include "cam_isp_hw.h"
-#include "cam_ife_csid_hw_intf.h"
-#include "cam_vfe_hw_intf.h"
-#include "cam_isp_packet_parser.h"
+#include "../../cam_utils/cam_compat.h"
+#include "../../cam_smmu/cam_smmu_api.h"
+#include "../../cam_req_mgr/cam_req_mgr_workq.h"
+#include "include/cam_isp_hw_mgr_intf.h"
+#include "isp_hw/include/cam_isp_hw.h"
+#include "isp_hw/include/cam_ife_csid_hw_intf.h"
+#include "isp_hw/include/cam_vfe_hw_intf.h"
+#include "hw_utils/include/cam_isp_packet_parser.h"
 #include "cam_ife_hw_mgr.h"
-#include "cam_cdm_intf_api.h"
-#include "cam_packet_util.h"
-#include "cam_debug_util.h"
-#include "cam_cpas_api.h"
-#include "cam_mem_mgr_api.h"
-#include "cam_common_util.h"
+#include "../../cam_cdm/cam_cdm_intf_api.h"
+#include "../../cam_utils/cam_packet_util.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../../cam_cpas/include/cam_cpas_api.h"
+#include "../../cam_req_mgr/cam_mem_mgr_api.h"
+#include "../../cam_utils/cam_common_util.h"
 
 #define CAM_IFE_SAFE_DISABLE 0
 #define CAM_IFE_SAFE_ENABLE 1

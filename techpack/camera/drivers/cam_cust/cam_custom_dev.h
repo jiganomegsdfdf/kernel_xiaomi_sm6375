@@ -6,10 +6,10 @@
 #ifndef _CAM_CUSTOM_DEV_H_
 #define _CAM_CUSTOM_DEV_H_
 
-#include "cam_subdev.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_custom_hw_mgr.h"
-#include "cam_context.h"
+#include "../cam_req_mgr/cam_subdev.h"
+#include "../cam_core/cam_hw_mgr_intf.h"
+#include "cam_custom_hw_mgr/cam_custom_hw_mgr.h"
+#include "../cam_core/cam_context.h"
 #include "cam_custom_context.h"
 
 #define CAM_CUSTOM_HW_MAX_INSTANCES 3

@@ -6,10 +6,10 @@
 #ifndef _CAM_VFE_LITE16X_H_
 #define _CAM_VFE_LITE16X_H_
 
-#include "cam_vfe_bus_ver2.h"
-#include "cam_irq_controller.h"
-#include "cam_vfe_top_ver2.h"
-#include "cam_vfe_core.h"
+#include "../vfe_bus/cam_vfe_bus_ver2.h"
+#include "../../../hw_utils/irq_controller/cam_irq_controller.h"
+#include "../vfe_top/cam_vfe_top_ver2.h"
+#include "../cam_vfe_core.h"
 
 static struct cam_irq_register_set vfe16x_top_irq_reg_set[2] = {
 	{

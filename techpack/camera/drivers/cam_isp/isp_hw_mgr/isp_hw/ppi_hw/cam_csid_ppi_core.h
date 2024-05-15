@@ -6,8 +6,8 @@
 #ifndef _CAM_CSID_PPI_HW_H_
 #define _CAM_CSID_PPI_HW_H_
 
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
+#include "../../../../cam_core/cam_hw.h"
+#include "../../../../cam_core/cam_hw_intf.h"
 
 #define CAM_CSID_PPI_HW_MAX      6
 #define CAM_CSID_PPI_LANES_MAX   3

@@ -10,8 +10,8 @@
 #include <linux/platform_device.h>
 #include <linux/component.h>
 
-#include "cam_csiphy_dev.h"
-#include "cam_cpastop_hw.h"
+#include "../cam_sensor_module/cam_csiphy/cam_csiphy_dev.h"
+#include "../cam_cpas/cpas_top/cam_cpastop_hw.h"
 
 #if KERNEL_VERSION(5, 4, 0) <= LINUX_VERSION_CODE
 

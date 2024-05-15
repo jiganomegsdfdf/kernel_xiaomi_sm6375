@@ -8,8 +8,8 @@
 
 #include <media/cam_jpeg.h>
 
-#include "cam_context.h"
-#include "cam_jpeg_hw_mgr_intf.h"
+#include "../cam_core/cam_context.h"
+#include "jpeg_hw/include/cam_jpeg_hw_mgr_intf.h"
 
 #define CAM_JPEG_HW_EVENT_MAX 20
 

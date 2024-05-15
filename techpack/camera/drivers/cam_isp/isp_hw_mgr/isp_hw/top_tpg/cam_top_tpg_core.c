@@ -9,10 +9,10 @@
 #include <media/cam_defs.h>
 
 #include "cam_top_tpg_core.h"
-#include "cam_soc_util.h"
-#include "cam_io_util.h"
-#include "cam_debug_util.h"
-#include "cam_cpas_api.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../../../../cam_utils/cam_io_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
 #include "cam_top_tpg_ver1.h"
 #include "cam_top_tpg_ver2.h"
 #include "cam_top_tpg_ver3.h"

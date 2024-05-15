@@ -12,7 +12,7 @@
 #include "cam_vfe_dev.h"
 #include "cam_vfe_core.h"
 #include "cam_vfe_soc.h"
-#include "cam_debug_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
 
 static  struct cam_isp_hw_intf_data cam_vfe_hw_list[CAM_VFE_HW_NUM_MAX];
 static char vfe_dev_name[8];

@@ -9,13 +9,13 @@
 #include <linux/types.h>
 #include <linux/completion.h>
 #include <media/cam_ope.h>
-#include "ope_hw.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_hw_intf.h"
-#include "cam_soc_util.h"
-#include "cam_context.h"
-#include "cam_ope_context.h"
-#include "cam_ope_hw_mgr.h"
+#include "../ope_hw.h"
+#include "../../../../cam_core/cam_hw_mgr_intf.h"
+#include "../../../../cam_core/cam_hw_intf.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../../../../cam_core/cam_context.h"
+#include "../../../cam_ope_context.h"
+#include "../../cam_ope_hw_mgr.h"
 
 /**
  * struct ope_bus_rd_cdm_info

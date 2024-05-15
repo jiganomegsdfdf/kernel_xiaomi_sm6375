@@ -6,7 +6,7 @@
 #ifndef _CAM_SFE_BUS_H_
 #define _CAM_SFE_BUS_H_
 
-#include "cam_sfe_hw_intf.h"
+#include "../../../include/cam_sfe_hw_intf.h"
 
 #define CAM_SFE_BUS_WR_VER_1_0          0x1000
 #define CAM_SFE_BUS_RD_VER_1_0          0x1000

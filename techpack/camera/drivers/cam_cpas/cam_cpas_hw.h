@@ -7,10 +7,10 @@
 #define _CAM_CPAS_HW_H_
 
 #include <dt-bindings/msm/msm-camera.h>
-#include "cam_cpas_api.h"
+#include "include/cam_cpas_api.h"
 #include "cam_cpas_hw_intf.h"
-#include "cam_common_util.h"
-#include "cam_soc_bus.h"
+#include "../cam_utils/cam_common_util.h"
+#include "../cam_utils/cam_soc_bus.h"
 
 #define CAM_CPAS_INFLIGHT_WORKS              5
 #define CAM_CPAS_MAX_CLIENTS                 40

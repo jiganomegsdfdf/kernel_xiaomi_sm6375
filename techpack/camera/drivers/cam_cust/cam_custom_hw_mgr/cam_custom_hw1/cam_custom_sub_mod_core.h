@@ -6,10 +6,10 @@
 #ifndef _CAM_CUSTOM_SUB_MOD_CORE_H_
 #define _CAM_CUSTOM_SUB_MOD_CORE_H_
 
-#include "cam_debug_util.h"
-#include "cam_custom_hw.h"
+#include "../../../cam_utils/cam_debug_util.h"
+#include "../include/cam_custom_hw.h"
 #include "cam_custom_sub_mod_soc.h"
-#include "cam_custom_hw_mgr_intf.h"
+#include "../include/cam_custom_hw_mgr_intf.h"
 
 struct cam_custom_sub_mod_set_irq_cb {
 	int32_t (*custom_hw_mgr_cb)(void *data,

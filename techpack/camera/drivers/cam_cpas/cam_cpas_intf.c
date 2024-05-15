@@ -14,11 +14,11 @@
 #include <media/cam_req_mgr.h>
 #include <dt-bindings/msm/msm-camera.h>
 
-#include "cam_subdev.h"
+#include "../cam_req_mgr/cam_subdev.h"
 #include "cam_cpas_hw_intf.h"
 #include "cam_cpas_soc.h"
-#include "camera_main.h"
-#include "cam_cpas_api.h"
+#include "../camera_main.h"
+#include "include/cam_cpas_api.h"
 
 #define CAM_CPAS_DEV_NAME    "cam-cpas"
 #define CAM_CPAS_INTF_INITIALIZED() (g_cpas_intf && g_cpas_intf->probe_done)

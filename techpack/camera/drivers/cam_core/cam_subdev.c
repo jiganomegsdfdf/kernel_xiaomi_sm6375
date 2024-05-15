@@ -3,9 +3,9 @@
  * Copyright (c) 2017-2021, The Linux Foundation. All rights reserved.
  */
 
-#include "cam_subdev.h"
+#include "../cam_req_mgr/cam_subdev.h"
 #include "cam_node.h"
-#include "cam_debug_util.h"
+#include "../cam_utils/cam_debug_util.h"
 
 /**
  * cam_subdev_subscribe_event()

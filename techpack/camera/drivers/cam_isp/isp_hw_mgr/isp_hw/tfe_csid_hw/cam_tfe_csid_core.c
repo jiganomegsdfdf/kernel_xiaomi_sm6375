@@ -10,15 +10,15 @@
 #include <media/cam_req_mgr.h>
 
 #include "cam_tfe_csid_core.h"
-#include "cam_csid_ppi_core.h"
-#include "cam_isp_hw.h"
-#include "cam_soc_util.h"
-#include "cam_io_util.h"
-#include "cam_debug_util.h"
-#include "cam_cpas_api.h"
-#include "cam_isp_hw_mgr_intf.h"
-#include "cam_subdev.h"
-#include "cam_tasklet_util.h"
+#include "../ppi_hw/cam_csid_ppi_core.h"
+#include "../include/cam_isp_hw.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../../../../cam_utils/cam_io_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../include/cam_isp_hw_mgr_intf.h"
+#include "../../../../cam_req_mgr/cam_subdev.h"
+#include "../../hw_utils/include/cam_tasklet_util.h"
 
 /* Timeout value in msec */
 #define TFE_CSID_TIMEOUT                               1000

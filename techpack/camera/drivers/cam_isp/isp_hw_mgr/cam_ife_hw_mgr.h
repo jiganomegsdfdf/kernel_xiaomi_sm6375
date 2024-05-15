@@ -9,11 +9,11 @@
 #include <linux/completion.h>
 #include <linux/time.h>
 #include "cam_isp_hw_mgr.h"
-#include "cam_vfe_hw_intf.h"
-#include "cam_ife_csid_hw_intf.h"
-#include "cam_top_tpg_hw_intf.h"
-#include "cam_tasklet_util.h"
-#include "cam_cdm_intf_api.h"
+#include "isp_hw/include/cam_vfe_hw_intf.h"
+#include "isp_hw/include/cam_ife_csid_hw_intf.h"
+#include "isp_hw/include/cam_top_tpg_hw_intf.h"
+#include "hw_utils/include/cam_tasklet_util.h"
+#include "../../cam_cdm/cam_cdm_intf_api.h"
 
 /* IFE resource constants */
 #define CAM_IFE_HW_IN_RES_MAX            (CAM_ISP_IFE_IN_RES_MAX & 0xFF)

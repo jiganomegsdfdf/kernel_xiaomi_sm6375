@@ -6,12 +6,12 @@
 
 #include <media/cam_defs.h>
 #include <media/cam_isp.h>
-#include "cam_mem_mgr.h"
-#include "cam_isp_hw.h"
-#include "cam_vfe_hw_intf.h"
-#include "cam_isp_packet_parser.h"
-#include "cam_debug_util.h"
-#include "cam_isp_hw_mgr_intf.h"
+#include "../../../cam_req_mgr/cam_mem_mgr.h"
+#include "../isp_hw/include/cam_isp_hw.h"
+#include "../isp_hw/include/cam_vfe_hw_intf.h"
+#include "include/cam_isp_packet_parser.h"
+#include "../../../cam_utils/cam_debug_util.h"
+#include "../include/cam_isp_hw_mgr_intf.h"
 
 int cam_isp_add_change_base(
 	struct cam_hw_prepare_update_args      *prepare,

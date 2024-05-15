@@ -11,15 +11,15 @@
 #include <media/cam_sync.h>
 #include <media/cam_defs.h>
 #include <media/cam_icp.h>
-#include "cam_node.h"
-#include "cam_context.h"
-#include "cam_context_utils.h"
+#include "../cam_core/cam_node.h"
+#include "../cam_core/cam_context.h"
+#include "../cam_core/cam_context_utils.h"
 #include "cam_icp_context.h"
-#include "cam_req_mgr_util.h"
-#include "cam_mem_mgr.h"
-#include "cam_trace.h"
-#include "cam_debug_util.h"
-#include "cam_packet_util.h"
+#include "../cam_req_mgr/cam_req_mgr_util.h"
+#include "../cam_req_mgr/cam_mem_mgr.h"
+#include "../cam_utils/cam_trace.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_utils/cam_packet_util.h"
 
 static const char icp_dev_name[] = "cam-icp";
 

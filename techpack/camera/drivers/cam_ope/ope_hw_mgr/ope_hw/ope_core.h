@@ -13,7 +13,7 @@
 #include <linux/platform_device.h>
 #include <linux/dma-buf.h>
 #include <media/cam_ope.h>
-#include "cam_cpas_api.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
 #include "ope_hw.h"
 #include "ope_dev_intf.h"
 

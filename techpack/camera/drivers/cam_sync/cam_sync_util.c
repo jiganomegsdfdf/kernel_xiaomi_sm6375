@@ -4,8 +4,8 @@
  */
 
 #include "cam_sync_util.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_common_util.h"
+#include "../cam_req_mgr/cam_req_mgr_workq.h"
+#include "../cam_utils/cam_common_util.h"
 
 int cam_sync_util_find_and_set_empty_row(struct sync_device *sync_dev,
 	long *idx)

@@ -5,12 +5,12 @@
 
 #include <linux/of.h>
 #include <linux/of_gpio.h>
-#include <cam_sensor_cmn_header.h>
-#include <cam_sensor_util.h>
-#include <cam_sensor_io.h>
-#include <cam_req_mgr_util.h>
+#include "../cam_sensor_utils/cam_sensor_cmn_header.h"
+#include "../cam_sensor_utils/cam_sensor_util.h"
+#include "../cam_sensor_io/cam_sensor_io.h"
+#include "../../cam_req_mgr/cam_req_mgr_util.h"
 #include "cam_sensor_soc.h"
-#include "cam_soc_util.h"
+#include "../../cam_utils/cam_soc_util.h"
 
 int32_t cam_sensor_get_sub_module_index(struct device_node *of_node,
 	struct cam_sensor_board_info *s_info)

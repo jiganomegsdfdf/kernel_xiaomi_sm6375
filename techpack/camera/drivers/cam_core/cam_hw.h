@@ -6,7 +6,7 @@
 #ifndef _CAM_HW_H_
 #define _CAM_HW_H_
 
-#include "cam_soc_util.h"
+#include "../cam_utils/cam_soc_util.h"
 
 /*
  * This file declares Enums, Structures and APIs to be used as template

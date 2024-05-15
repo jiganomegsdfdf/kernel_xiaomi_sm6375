@@ -6,11 +6,11 @@
 
 #ifndef _CAM_VFE480_H_
 #define _CAM_VFE480_H_
-#include "cam_vfe_camif_ver3.h"
-#include "cam_vfe_top_ver3.h"
-#include "cam_vfe_core.h"
-#include "cam_vfe_bus_ver3.h"
-#include "cam_irq_controller.h"
+#include "../vfe_top/cam_vfe_camif_ver3.h"
+#include "../vfe_top/cam_vfe_top_ver3.h"
+#include "../cam_vfe_core.h"
+#include "../vfe_bus/cam_vfe_bus_ver3.h"
+#include "../../../hw_utils/irq_controller/cam_irq_controller.h"
 
 static struct cam_irq_register_set vfe480_top_irq_reg_set[3] = {
 	{

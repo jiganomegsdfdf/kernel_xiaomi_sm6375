@@ -6,7 +6,7 @@
 #ifndef _CAM_LRME_HW_SOC_H_
 #define _CAM_LRME_HW_SOC_H_
 
-#include "cam_soc_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
 
 struct cam_lrme_soc_private {
 	uint32_t cpas_handle;

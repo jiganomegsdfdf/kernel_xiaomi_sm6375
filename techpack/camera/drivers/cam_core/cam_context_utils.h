@@ -7,7 +7,7 @@
 #define _CAM_CONTEXT_UTILS_H_
 
 #include <linux/types.h>
-#include "cam_smmu_api.h"
+#include "../cam_smmu/cam_smmu_api.h"
 
 int cam_context_buf_done_from_hw(struct cam_context *ctx,
 	void *done_event_data, uint32_t evt_id);

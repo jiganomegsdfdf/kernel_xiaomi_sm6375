@@ -12,7 +12,7 @@
 #include <linux/of.h>
 #include <linux/platform_device.h>
 
-#include "cam_jpeg_hw_intf.h"
+#include "../include/cam_jpeg_hw_intf.h"
 
 struct cam_jpeg_enc_reg_offsets {
 	uint32_t hw_version;

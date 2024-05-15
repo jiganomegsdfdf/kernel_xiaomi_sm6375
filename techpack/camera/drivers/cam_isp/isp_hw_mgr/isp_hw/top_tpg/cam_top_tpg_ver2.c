@@ -8,9 +8,9 @@
 #include <media/cam_defs.h>
 
 #include "cam_top_tpg_core.h"
-#include "cam_soc_util.h"
-#include "cam_io_util.h"
-#include "cam_debug_util.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../../../../cam_utils/cam_io_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
 #include "cam_top_tpg_ver2.h"
 
 #define CAM_TOP_TPG_VER2_MAX_SUPPORTED_DT 1

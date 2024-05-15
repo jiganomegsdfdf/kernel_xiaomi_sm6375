@@ -9,9 +9,9 @@
 
 #include "cam_csid_ppi_core.h"
 #include "cam_csid_ppi_dev.h"
-#include "cam_soc_util.h"
-#include "cam_debug_util.h"
-#include "cam_io_util.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../cam_utils/cam_io_util.h"
 
 static int cam_csid_ppi_reset(struct cam_csid_ppi_hw *ppi_hw)
 {

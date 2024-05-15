@@ -7,10 +7,10 @@
 #define _CAM_VFE_CORE_H_
 
 #include <linux/spinlock.h>
-#include "cam_hw_intf.h"
-#include "cam_vfe_top.h"
-#include "cam_vfe_bus.h"
-#include "cam_vfe_hw_intf.h"
+#include "../../../../cam_core/cam_hw_intf.h"
+#include "vfe_top/include/cam_vfe_top.h"
+#include "vfe_bus/include/cam_vfe_bus.h"
+#include "../include/cam_vfe_hw_intf.h"
 
 #define CAM_VFE_HW_IRQ_CAP_SOF             0x1
 #define CAM_VFE_HW_IRQ_CAP_EPOCH_0         0x2

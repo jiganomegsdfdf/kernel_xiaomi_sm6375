@@ -7,10 +7,10 @@
 #define _CAM_SFE_CORE_H_
 
 #include <linux/spinlock.h>
-#include "cam_hw_intf.h"
-#include "cam_sfe_hw_intf.h"
-#include "cam_sfe_bus.h"
-#include "cam_sfe_top.h"
+#include "../../../../cam_core/cam_hw_intf.h"
+#include "../include/cam_sfe_hw_intf.h"
+#include "sfe_bus/include/cam_sfe_bus.h"
+#include "sfe_top/cam_sfe_top.h"
 
 #define CAM_SFE_EVT_MAX                        256
 

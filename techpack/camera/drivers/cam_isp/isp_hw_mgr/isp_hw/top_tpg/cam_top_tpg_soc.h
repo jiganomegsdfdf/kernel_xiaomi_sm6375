@@ -6,7 +6,7 @@
 #ifndef _CAM_TOP_TPG_SOC_H_
 #define _CAM_TOP_TPG_SOC_H_
 
-#include "cam_isp_hw.h"
+#include "../include/cam_isp_hw.h"
 
 /*
  * struct cam_top_tpg_soc_private:

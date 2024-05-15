@@ -6,7 +6,7 @@
 #ifndef _CAM_CUSTOM_CSID_480_H_
 #define _CAM_CUSTOM_CSID_480_H_
 
-#include "cam_ife_csid_core.h"
+#include "../../../cam_isp/isp_hw_mgr/isp_hw/ife_csid_hw/cam_ife_csid_core.h"
 
 #define CAM_CSID_VERSION_V480                 0x40080000
 

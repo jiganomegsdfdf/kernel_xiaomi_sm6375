@@ -6,7 +6,7 @@
 #ifndef _CAM_TASKLET_UTIL_H_
 #define _CAM_TASKLET_UTIL_H_
 
-#include "cam_irq_controller.h"
+#include "../irq_controller/cam_irq_controller.h"
 
 /*
  * cam_tasklet_init()

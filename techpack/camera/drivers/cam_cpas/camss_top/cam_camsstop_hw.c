@@ -3,9 +3,9 @@
  * Copyright (c) 2017-2018, 2020 The Linux Foundation. All rights reserved.
  */
 
-#include "cam_cpas_hw_intf.h"
-#include "cam_cpas_hw.h"
-#include "cam_cpas_soc.h"
+#include "../cam_cpas_hw_intf.h"
+#include "../cam_cpas_hw.h"
+#include "../cam_cpas_soc.h"
 
 int cam_camsstop_get_hw_info(struct cam_hw_info *cpas_hw,
 	struct cam_cpas_hw_caps *hw_caps)

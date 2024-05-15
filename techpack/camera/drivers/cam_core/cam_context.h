@@ -10,9 +10,9 @@
 #include <linux/spinlock.h>
 #include <linux/kref.h>
 #include <media/v4l2-subdev.h>
-#include "cam_req_mgr_interface.h"
+#include "../cam_req_mgr/cam_req_mgr_interface.h"
 #include "cam_hw_mgr_intf.h"
-#include "cam_smmu_api.h"
+#include "../cam_smmu/cam_smmu_api.h"
 
 /* Forward declarations */
 struct cam_context;

@@ -8,8 +8,8 @@
 
 #include <media/cam_isp.h>
 
-#include "cam_hw_intf.h"
-#include "cam_isp_hw.h"
+#include "../../../../../../cam_core/cam_hw_intf.h"
+#include "../../../include/cam_isp_hw.h"
 
 #define CAM_VFE_BUS_VER_1_0             0x1000
 #define CAM_VFE_BUS_VER_2_0             0x2000

@@ -8,10 +8,10 @@
 #include <linux/interrupt.h>
 #include <linux/list.h>
 #include <linux/ratelimit.h>
-#include "cam_tasklet_util.h"
-#include "cam_irq_controller.h"
-#include "cam_debug_util.h"
-#include "cam_common_util.h"
+#include "include/cam_tasklet_util.h"
+#include "irq_controller/cam_irq_controller.h"
+#include "../../../cam_utils/cam_debug_util.h"
+#include "../../../cam_utils/cam_common_util.h"
 
 
 /* Threshold for scheduling delay in ms */

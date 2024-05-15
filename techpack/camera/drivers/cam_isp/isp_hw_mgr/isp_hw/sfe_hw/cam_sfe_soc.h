@@ -6,8 +6,8 @@
 #ifndef _CAM_SFE_SOC_H_
 #define _CAM_SFE_SOC_H_
 
-#include "cam_soc_util.h"
-#include "cam_isp_hw.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../include/cam_isp_hw.h"
 
 /*
  * struct cam_sfe_soc_private:

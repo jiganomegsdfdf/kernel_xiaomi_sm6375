@@ -4,13 +4,13 @@
  */
 
 #include <linux/slab.h>
-#include "cam_io_util.h"
-#include "cam_cdm_util.h"
-#include "cam_vfe_hw_intf.h"
-#include "cam_vfe_top.h"
+#include "../../../../../cam_utils/cam_io_util.h"
+#include "../../../../../cam_cdm/cam_cdm_util.h"
+#include "../../include/cam_vfe_hw_intf.h"
+#include "include/cam_vfe_top.h"
 #include "cam_vfe_top_ver2.h"
-#include "cam_debug_util.h"
-#include "cam_vfe_soc.h"
+#include "../../../../../cam_utils/cam_debug_util.h"
+#include "../cam_vfe_soc.h"
 
 #define CAM_VFE_HW_RESET_HW_AND_REG_VAL       0x00003F9F
 #define CAM_VFE_HW_RESET_HW_VAL               0x00003F87

@@ -10,8 +10,8 @@
 #include <media/cam_defs.h>
 #include <media/cam_ope.h>
 #include "ope_soc.h"
-#include "cam_soc_util.h"
-#include "cam_debug_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
+#include "../../../cam_utils/cam_debug_util.h"
 
 
 static int cam_ope_get_dt_properties(struct cam_hw_soc_info *soc_info)

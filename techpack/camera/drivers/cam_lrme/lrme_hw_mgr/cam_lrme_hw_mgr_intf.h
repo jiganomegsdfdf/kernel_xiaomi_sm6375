@@ -8,8 +8,8 @@
 
 #include <linux/of.h>
 
-#include "cam_debug_util.h"
-#include "cam_hw_mgr_intf.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../../cam_core/cam_hw_mgr_intf.h"
 
 int cam_lrme_hw_mgr_init(struct cam_hw_mgr_intf *hw_mgr_intf,
 	cam_hw_event_cb_func cam_lrme_dev_buf_done_cb);

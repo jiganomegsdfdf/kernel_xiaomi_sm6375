@@ -4,14 +4,14 @@
  */
 
 #include <linux/slab.h>
-#include "cam_io_util.h"
-#include "cam_cdm_util.h"
-#include "cam_sfe_hw_intf.h"
-#include "cam_tasklet_util.h"
+#include "../../../../../cam_utils/cam_io_util.h"
+#include "../../../../../cam_cdm/cam_cdm_util.h"
+#include "../../include/cam_sfe_hw_intf.h"
+#include "../../../hw_utils/include/cam_tasklet_util.h"
 #include "cam_sfe_top.h"
-#include "cam_debug_util.h"
-#include "cam_sfe_soc.h"
-#include "cam_sfe_core.h"
+#include "../../../../../cam_utils/cam_debug_util.h"
+#include "../cam_sfe_soc.h"
+#include "../cam_sfe_core.h"
 
 #define CAM_SFE_DELAY_BW_REDUCTION_NUM_FRAMES 18
 

@@ -13,14 +13,14 @@
 #include <media/cam_req_mgr.h>
 #include <media/cam_lrme.h>
 
-#include "cam_io_util.h"
-#include "cam_soc_util.h"
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
-#include "cam_subdev.h"
-#include "cam_cpas_api.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_debug_util.h"
+#include "../../../cam_utils/cam_io_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
+#include "../../../cam_core/cam_hw.h"
+#include "../../../cam_core/cam_hw_intf.h"
+#include "../../../cam_req_mgr/cam_subdev.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../cam_core/cam_hw_mgr_intf.h"
+#include "../../../cam_utils/cam_debug_util.h"
 
 
 #define CAM_LRME_MAX_IO_BUFFER 2

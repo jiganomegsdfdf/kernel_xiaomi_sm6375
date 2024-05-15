@@ -8,11 +8,11 @@
 #include <linux/of_device.h>
 #include <linux/component.h>
 
-#include "cam_isp_hw.h"
-#include "cam_hw_intf.h"
+#include "../include/cam_isp_hw.h"
+#include "../../../../cam_core/cam_hw_intf.h"
 #include "cam_csid_ppi_core.h"
 #include "cam_csid_ppi_dev.h"
-#include "cam_debug_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
 
 static struct cam_hw_intf *cam_csid_ppi_hw_list[CAM_CSID_PPI_HW_MAX] = {
 	NULL, NULL, NULL, NULL};

@@ -11,17 +11,17 @@
 
 #include "jpeg_dma_core.h"
 #include "jpeg_dma_soc.h"
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
-#include "cam_io_util.h"
-#include "cam_jpeg_hw_intf.h"
-#include "cam_jpeg_hw_mgr_intf.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
+#include "../../../cam_core/cam_hw.h"
+#include "../../../cam_core/cam_hw_intf.h"
+#include "../../../cam_utils/cam_io_util.h"
+#include "../include/cam_jpeg_hw_intf.h"
+#include "../include/cam_jpeg_hw_mgr_intf.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../cam_utils/cam_debug_util.h"
 #include "cam_jpeg_dma_hw_info_ver_4_2_0.h"
 #include "cam_jpeg_dma_165_hw_info_ver_4_2_0.h"
 #include "cam_jpeg_dma_580_hw_info_ver_4_2_0.h"
-#include "camera_main.h"
+#include "../../../camera_main.h"
 
 static int cam_jpeg_dma_register_cpas(struct cam_hw_soc_info *soc_info,
 	struct cam_jpeg_dma_device_core_info *core_info,

@@ -9,11 +9,11 @@
 #include <linux/completion.h>
 #include <media/cam_isp_tfe.h>
 #include "cam_isp_hw_mgr.h"
-#include "cam_tfe_hw_intf.h"
-#include "cam_tfe_csid_hw_intf.h"
-#include "cam_top_tpg_hw_intf.h"
-#include "cam_tasklet_util.h"
-#include "cam_cdm_intf_api.h"
+#include "isp_hw/include/cam_tfe_hw_intf.h"
+#include "isp_hw/include/cam_tfe_csid_hw_intf.h"
+#include "isp_hw/include/cam_top_tpg_hw_intf.h"
+#include "hw_utils/include/cam_tasklet_util.h"
+#include "../../cam_cdm/cam_cdm_intf_api.h"
 
 
 

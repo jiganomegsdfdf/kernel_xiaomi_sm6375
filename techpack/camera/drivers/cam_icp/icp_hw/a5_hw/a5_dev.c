@@ -10,14 +10,14 @@
 #include <linux/timer.h>
 #include "a5_core.h"
 #include "a5_soc.h"
-#include "cam_io_util.h"
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
-#include "cam_a5_hw_intf.h"
-#include "cam_icp_hw_mgr_intf.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
+#include "../../../cam_utils/cam_io_util.h"
+#include "../../../cam_core/cam_hw.h"
+#include "../../../cam_core/cam_hw_intf.h"
+#include "../icp_hw_mgr/include/cam_a5_hw_intf.h"
+#include "../include/cam_icp_hw_mgr_intf.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../cam_utils/cam_debug_util.h"
+#include "../../../camera_main.h"
 
 struct a5_soc_info cam_a5_soc_info;
 EXPORT_SYMBOL(cam_a5_soc_info);

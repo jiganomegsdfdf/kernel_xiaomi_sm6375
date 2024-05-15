@@ -7,9 +7,9 @@
 #ifndef _CAM_TFE_BUS_H_
 #define _CAM_TFE_BUS_H_
 
-#include "cam_soc_util.h"
-#include "cam_isp_hw.h"
-#include "cam_tfe_hw_intf.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../include/cam_isp_hw.h"
+#include "../include/cam_tfe_hw_intf.h"
 
 #define CAM_TFE_BUS_MAX_CLIENTS            10
 #define CAM_TFE_BUS_MAX_SUB_GRPS            4

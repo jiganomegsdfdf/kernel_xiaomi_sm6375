@@ -7,7 +7,7 @@
 #define _CAM_TOP_TPG_HW_INTF_H_
 
 #include "cam_isp_hw.h"
-#include "cam_hw_intf.h"
+#include "../../../../cam_core/cam_hw_intf.h"
 #include "cam_ife_csid_hw_intf.h"
 
 /* Max top tpg instance */

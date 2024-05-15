@@ -6,9 +6,9 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-#include "cam_debug_util.h"
+#include "../cam_utils/cam_debug_util.h"
 #include "cam_fd_context.h"
-#include "cam_trace.h"
+#include "../cam_utils/cam_trace.h"
 
 static const char fd_dev_name[] = "cam-fd";
 

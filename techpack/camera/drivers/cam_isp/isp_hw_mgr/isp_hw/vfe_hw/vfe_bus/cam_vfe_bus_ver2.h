@@ -6,8 +6,8 @@
 #ifndef _CAM_VFE_BUS_VER2_H_
 #define _CAM_VFE_BUS_VER2_H_
 
-#include "cam_irq_controller.h"
-#include "cam_vfe_bus.h"
+#include "../../../hw_utils/irq_controller/cam_irq_controller.h"
+#include "include/cam_vfe_bus.h"
 
 #define CAM_VFE_BUS_VER2_MAX_CLIENTS 24
 #define CAM_VFE_BUS_VER2_MAX_MID_PER_PORT 4

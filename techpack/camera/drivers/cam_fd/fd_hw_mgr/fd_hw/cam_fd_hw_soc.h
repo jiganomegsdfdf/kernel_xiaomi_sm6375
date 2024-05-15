@@ -6,7 +6,7 @@
 #ifndef _CAM_FD_HW_SOC_H_
 #define _CAM_FD_HW_SOC_H_
 
-#include "cam_soc_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
 
 /**
  * enum cam_fd_reg_base - Enum for FD register sets

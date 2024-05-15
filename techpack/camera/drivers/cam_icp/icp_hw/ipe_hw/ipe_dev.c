@@ -10,14 +10,14 @@
 #include <linux/timer.h>
 #include "ipe_core.h"
 #include "ipe_soc.h"
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
-#include "cam_io_util.h"
-#include "cam_icp_hw_intf.h"
-#include "cam_icp_hw_mgr_intf.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
+#include "../../../cam_core/cam_hw.h"
+#include "../../../cam_core/cam_hw_intf.h"
+#include "../../../cam_utils/cam_io_util.h"
+#include "../icp_hw_mgr/include/cam_icp_hw_intf.h"
+#include "../include/cam_icp_hw_mgr_intf.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../cam_utils/cam_debug_util.h"
+#include "../../../camera_main.h"
 
 static struct cam_ipe_device_hw_info cam_ipe_hw_info[] = {
 	{

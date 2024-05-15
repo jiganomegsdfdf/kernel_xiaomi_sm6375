@@ -6,8 +6,8 @@
 #ifndef _CAM_VFE_TOP_H_
 #define _CAM_VFE_TOP_H_
 
-#include "cam_hw_intf.h"
-#include "cam_isp_hw.h"
+#include "../../../../../../cam_core/cam_hw_intf.h"
+#include "../../../include/cam_isp_hw.h"
 
 #define CAM_VFE_TOP_VER_1_0 0x100000
 #define CAM_VFE_TOP_VER_2_0 0x200000

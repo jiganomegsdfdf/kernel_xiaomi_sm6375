@@ -6,8 +6,8 @@
 #include <linux/module.h>
 #include "cam_cci_core.h"
 #include "cam_cci_dev.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_common_util.h"
+#include "../../cam_req_mgr/cam_req_mgr_workq.h"
+#include "../../cam_utils/cam_common_util.h"
 
 static int32_t cam_cci_convert_type_to_num_bytes(
 	enum camera_sensor_i2c_type type)

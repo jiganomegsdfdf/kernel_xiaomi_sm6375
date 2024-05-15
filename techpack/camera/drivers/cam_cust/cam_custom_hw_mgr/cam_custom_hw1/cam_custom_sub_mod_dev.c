@@ -10,8 +10,8 @@
 #include "cam_custom_sub_mod_dev.h"
 #include "cam_custom_sub_mod_core.h"
 #include "cam_custom_sub_mod_soc.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
+#include "../../../cam_utils/cam_debug_util.h"
+#include "../../../camera_main.h"
 
 static struct cam_hw_intf *cam_custom_hw_sub_mod_list
 	[CAM_CUSTOM_SUB_MOD_MAX_INSTANCES] = {0, 0};

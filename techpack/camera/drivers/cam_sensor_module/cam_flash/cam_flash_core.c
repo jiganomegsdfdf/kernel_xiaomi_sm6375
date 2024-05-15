@@ -6,11 +6,11 @@
 
 #include <linux/module.h>
 
-#include "cam_sensor_cmn_header.h"
+#include "../cam_sensor_utils/cam_sensor_cmn_header.h"
 #include "cam_flash_core.h"
-#include "cam_res_mgr_api.h"
-#include "cam_common_util.h"
-#include "cam_packet_util.h"
+#include "../cam_res_mgr/cam_res_mgr_api.h"
+#include "../../cam_utils/cam_common_util.h"
+#include "../../cam_utils/cam_packet_util.h"
 #include <linux/math64.h>
 
 static uint default_on_timer = 2;

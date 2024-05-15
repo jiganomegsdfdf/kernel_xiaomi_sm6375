@@ -9,12 +9,12 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-#include "cam_subdev.h"
-#include "cam_node.h"
+#include "../cam_req_mgr/cam_subdev.h"
+#include "../cam_core/cam_node.h"
 #include "cam_fd_context.h"
-#include "cam_fd_hw_mgr.h"
-#include "cam_fd_hw_mgr_intf.h"
-#include "camera_main.h"
+#include "fd_hw_mgr/cam_fd_hw_mgr.h"
+#include "fd_hw_mgr/cam_fd_hw_mgr_intf.h"
+#include "../camera_main.h"
 
 #define CAM_FD_DEV_NAME "cam-fd"
 

@@ -6,10 +6,10 @@
 #ifndef _CAM_FD_CONTEXT_H_
 #define _CAM_FD_CONTEXT_H_
 
-#include "cam_context.h"
-#include "cam_context_utils.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_req_mgr_interface.h"
+#include "../cam_core/cam_context.h"
+#include "../cam_core/cam_context_utils.h"
+#include "../cam_core/cam_hw_mgr_intf.h"
+#include "../cam_req_mgr/cam_req_mgr_interface.h"
 
 /**
  * struct cam_fd_context - Face Detection context information

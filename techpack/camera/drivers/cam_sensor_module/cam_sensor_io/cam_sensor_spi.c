@@ -5,7 +5,7 @@
 
 #include <linux/dma-contiguous.h>
 #include "cam_sensor_spi.h"
-#include "cam_debug_util.h"
+#include "../../cam_utils/cam_debug_util.h"
 
 static int cam_spi_txfr(struct spi_device *spi, char *txbuf,
 	char *rxbuf, int num_byte)

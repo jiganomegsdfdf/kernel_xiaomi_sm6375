@@ -6,7 +6,7 @@
 #ifndef _CAM_CUSTOM_HW_SUB_MOD_SOC_H_
 #define _CAM_CUSTOM_HW_SUB_MOD_SOC_H_
 
-#include "cam_soc_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
 /*
  * struct cam_custom_hw_soc_private:
  *

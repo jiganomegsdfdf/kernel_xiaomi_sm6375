@@ -9,16 +9,16 @@
 #include <linux/types.h>
 #include <linux/completion.h>
 #include <media/cam_icp.h>
-#include "cam_icp_hw_intf.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_hw_intf.h"
-#include "cam_a5_hw_intf.h"
-#include "hfi_session_defs.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_mem_mgr.h"
-#include "cam_smmu_api.h"
-#include "cam_soc_util.h"
-#include "cam_req_mgr_timer.h"
+#include "include/cam_icp_hw_intf.h"
+#include "../../../cam_core/cam_hw_mgr_intf.h"
+#include "../../../cam_core/cam_hw_intf.h"
+#include "include/cam_a5_hw_intf.h"
+#include "../../fw_inc/hfi_session_defs.h"
+#include "../../../cam_req_mgr/cam_req_mgr_workq.h"
+#include "../../../cam_req_mgr/cam_mem_mgr.h"
+#include "../../../cam_smmu/cam_smmu_api.h"
+#include "../../../cam_utils/cam_soc_util.h"
+#include "../../../cam_req_mgr/cam_req_mgr_timer.h"
 
 #define CAM_ICP_ROLE_PARENT     1
 #define CAM_ICP_ROLE_CHILD      2

@@ -11,16 +11,16 @@
 #include <linux/kernel.h>
 #include <media/cam_req_mgr.h>
 
-#include "cam_subdev.h"
+#include "../../../cam_req_mgr/cam_subdev.h"
 #include "cam_lrme_hw_intf.h"
 #include "cam_lrme_hw_core.h"
 #include "cam_lrme_hw_soc.h"
 #include "cam_lrme_hw_reg.h"
-#include "cam_req_mgr_workq.h"
-#include "cam_lrme_hw_mgr.h"
-#include "cam_mem_mgr_api.h"
-#include "cam_smmu_api.h"
-#include "camera_main.h"
+#include "../../../cam_req_mgr/cam_req_mgr_workq.h"
+#include "../cam_lrme_hw_mgr.h"
+#include "../../../cam_req_mgr/cam_mem_mgr_api.h"
+#include "../../../cam_smmu/cam_smmu_api.h"
+#include "../../../camera_main.h"
 
 static int cam_lrme_hw_dev_util_cdm_acquire(struct cam_lrme_core *lrme_core,
 	struct cam_hw_info *lrme_hw)

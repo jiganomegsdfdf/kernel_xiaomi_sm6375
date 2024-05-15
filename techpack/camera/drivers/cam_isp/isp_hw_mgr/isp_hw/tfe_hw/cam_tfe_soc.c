@@ -4,9 +4,9 @@
  */
 
 #include <linux/slab.h>
-#include "cam_cpas_api.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
 #include "cam_tfe_soc.h"
-#include "cam_debug_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
 
 static bool cam_tfe_cpas_cb(uint32_t client_handle, void *userdata,
 	struct cam_cpas_irq_data *irq_data)

@@ -21,12 +21,12 @@
 
 #include <media/cam_req_mgr.h>
 
-#include "cam_compat.h"
+#include "../cam_utils/cam_compat.h"
 #include "cam_smmu_api.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
-#include "cam_trace.h"
-#include "cam_common_util.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../camera_main.h"
+#include "../cam_utils/cam_trace.h"
+#include "../cam_utils/cam_common_util.h"
 
 #define SHARED_MEM_POOL_GRANULARITY 16
 

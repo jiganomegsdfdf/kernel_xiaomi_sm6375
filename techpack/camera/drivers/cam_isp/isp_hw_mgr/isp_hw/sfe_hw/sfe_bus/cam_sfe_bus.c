@@ -3,10 +3,10 @@
  * Copyright (c) 2020, The Linux Foundation. All rights reserved.
  */
 
-#include "cam_sfe_bus.h"
+#include "include/cam_sfe_bus.h"
 #include "cam_sfe_bus_rd.h"
 #include "cam_sfe_bus_wr.h"
-#include "cam_debug_util.h"
+#include "../../../../../cam_utils/cam_debug_util.h"
 
 int cam_sfe_bus_init(
 	uint32_t                       bus_version,

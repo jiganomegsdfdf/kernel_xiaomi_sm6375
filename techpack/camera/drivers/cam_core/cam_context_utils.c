@@ -13,12 +13,12 @@
 
 #include "cam_context.h"
 #include "cam_context_utils.h"
-#include "cam_mem_mgr.h"
+#include "../cam_req_mgr/cam_mem_mgr.h"
 #include "cam_node.h"
-#include "cam_req_mgr_util.h"
-#include "cam_sync_api.h"
-#include "cam_trace.h"
-#include "cam_debug_util.h"
+#include "../cam_req_mgr/cam_req_mgr_util.h"
+#include "../cam_sync/cam_sync_api.h"
+#include "../cam_utils/cam_trace.h"
+#include "../cam_utils/cam_debug_util.h"
 
 static uint cam_debug_ctx_req_list;
 module_param(cam_debug_ctx_req_list, uint, 0644);

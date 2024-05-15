@@ -8,9 +8,9 @@
 #include <linux/list.h>
 #include <linux/ratelimit.h>
 
-#include "cam_io_util.h"
+#include "../../../../cam_utils/cam_io_util.h"
 #include "cam_irq_controller.h"
-#include "cam_debug_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
 
 /**
  * struct cam_irq_evt_handler:

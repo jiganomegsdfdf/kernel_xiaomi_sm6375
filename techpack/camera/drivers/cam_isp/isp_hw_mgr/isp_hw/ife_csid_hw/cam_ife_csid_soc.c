@@ -4,8 +4,8 @@
  */
 #include <linux/slab.h>
 #include "cam_ife_csid_soc.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
+#include "../../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../../cam_utils/cam_debug_util.h"
 
 static int cam_ife_csid_get_dt_properties(struct cam_hw_soc_info *soc_info)
 {

@@ -14,7 +14,7 @@
 #include "include/cam_csiphy_1_2_5_hwreg.h"
 #include "include/cam_csiphy_2_0_hwreg.h"
 #include "include/cam_csiphy_2_1_0_hwreg.h"
-#include "cam_subdev.h"
+#include "../../cam_req_mgr/cam_subdev.h"
 
 /* Clock divide factor for CPHY spec v1.0 */
 #define CSIPHY_DIVISOR_16           16

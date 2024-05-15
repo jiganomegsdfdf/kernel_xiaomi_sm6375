@@ -8,8 +8,8 @@
 #include <linux/uaccess.h>
 
 #include "cam_node.h"
-#include "cam_trace.h"
-#include "cam_debug_util.h"
+#include "../cam_utils/cam_trace.h"
+#include "../cam_utils/cam_debug_util.h"
 
 static void cam_node_print_ctx_state(
 	struct cam_node *node)

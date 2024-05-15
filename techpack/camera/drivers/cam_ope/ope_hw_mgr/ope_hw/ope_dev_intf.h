@@ -7,9 +7,9 @@
 #define CAM_OPE_DEV_INTF_H
 
 #include <media/cam_ope.h>
-#include "cam_ope_hw_mgr.h"
-#include "cam_cdm_intf_api.h"
-#include "cam_cpas_api.h"
+#include "../cam_ope_hw_mgr.h"
+#include "../../../cam_cdm/cam_cdm_intf_api.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
 
 
 #define OPE_HW_INIT          0x1

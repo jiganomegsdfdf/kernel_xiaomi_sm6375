@@ -9,7 +9,7 @@
 #include <linux/timer.h>
 #include <media/cam_defs.h>
 #include <media/cam_icp.h>
-#include "cam_hw_mgr_intf.h"
+#include "../../../../cam_core/cam_hw_mgr_intf.h"
 #include "cam_icp_hw_intf.h"
 
 struct cam_icp_a5_set_fw_buf_info {

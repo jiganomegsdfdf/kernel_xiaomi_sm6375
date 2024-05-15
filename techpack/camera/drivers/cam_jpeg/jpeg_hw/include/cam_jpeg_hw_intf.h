@@ -7,7 +7,7 @@
 #ifndef CAM_JPEG_HW_INTF_H
 #define CAM_JPEG_HW_INTF_H
 
-#include "cam_cpas_api.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
 
 #define CAM_JPEG_DEV_PER_TYPE_MAX     1
 

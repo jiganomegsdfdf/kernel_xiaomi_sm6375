@@ -7,11 +7,11 @@
 #define _CAM_CUSTOM_HW_MGR_H_
 
 #include <linux/completion.h>
-#include "cam_custom_hw_mgr_intf.h"
-#include "cam_custom_sub_mod_core.h"
-#include "cam_ife_csid_hw_intf.h"
-#include "cam_isp_hw.h"
-#include "cam_custom_hw.h"
+#include "include/cam_custom_hw_mgr_intf.h"
+#include "cam_custom_hw1/cam_custom_sub_mod_core.h"
+#include "../../cam_isp/isp_hw_mgr/isp_hw/include/cam_ife_csid_hw_intf.h"
+#include "../../cam_isp/isp_hw_mgr/isp_hw/include/cam_isp_hw.h"
+#include "include/cam_custom_hw.h"
 
 #include <media/cam_defs.h>
 #include <media/cam_custom.h>

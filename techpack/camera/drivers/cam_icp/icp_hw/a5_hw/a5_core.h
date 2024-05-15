@@ -10,7 +10,7 @@
 #include <linux/io.h>
 #include <linux/of.h>
 #include <linux/platform_device.h>
-#include "cam_a5_hw_intf.h"
+#include "../icp_hw_mgr/include/cam_a5_hw_intf.h"
 
 #define A5_QGIC_BASE            0
 #define A5_SIERRA_BASE          1

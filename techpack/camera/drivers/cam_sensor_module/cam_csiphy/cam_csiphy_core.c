@@ -8,16 +8,16 @@
 
 #include <dt-bindings/msm/msm-camera.h>
 
-#include "cam_compat.h"
+#include "../../cam_utils/cam_compat.h"
 #include "cam_csiphy_core.h"
 #include "cam_csiphy_dev.h"
 #include "cam_csiphy_soc.h"
-#include "cam_common_util.h"
-#include "cam_packet_util.h"
-#include "cam_mem_mgr.h"
-#include "cam_cpas_api.h"
-#include "cam_compat.h"
-#include "cam_subdev.h"
+#include "../../cam_utils/cam_common_util.h"
+#include "../../cam_utils/cam_packet_util.h"
+#include "../../cam_req_mgr/cam_mem_mgr.h"
+#include "../../cam_cpas/include/cam_cpas_api.h"
+#include "../../cam_utils/cam_compat.h"
+#include "../../cam_req_mgr/cam_subdev.h"
 
 #define SCM_SVC_CAMERASS 0x18
 #define SECURE_SYSCALL_ID 0x6

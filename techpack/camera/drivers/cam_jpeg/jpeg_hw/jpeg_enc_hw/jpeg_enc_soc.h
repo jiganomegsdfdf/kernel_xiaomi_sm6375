@@ -6,8 +6,8 @@
 #ifndef _CAM_JPEG_ENC_SOC_H_
 #define _CAM_JPEG_ENC_SOC_H_
 
-#include "cam_soc_util.h"
-#include "cam_jpeg_hw_intf.h"
+#include "../../../cam_utils/cam_soc_util.h"
+#include "../include/cam_jpeg_hw_intf.h"
 
 /*
  * struct cam_jpeg_enc_soc_private:

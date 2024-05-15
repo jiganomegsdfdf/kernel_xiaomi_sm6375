@@ -9,9 +9,9 @@
 #include <media/cam_defs.h>
 
 #include "cam_top_tpg_core.h"
-#include "cam_soc_util.h"
-#include "cam_io_util.h"
-#include "cam_debug_util.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../../../../cam_utils/cam_io_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
 #include "cam_top_tpg_ver1.h"
 
 static uint32_t tpg_num_dt_map[CAM_TOP_TPG_MAX_SUPPORTED_DT] = {

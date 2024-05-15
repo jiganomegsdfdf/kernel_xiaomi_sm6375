@@ -8,7 +8,7 @@
 
 
 #include "cam_sync_private.h"
-#include "cam_debug_util.h"
+#include "../cam_utils/cam_debug_util.h"
 
 extern struct sync_device *sync_dev;
 

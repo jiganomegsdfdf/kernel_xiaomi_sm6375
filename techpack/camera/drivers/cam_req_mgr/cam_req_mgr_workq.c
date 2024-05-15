@@ -4,8 +4,8 @@
  */
 
 #include "cam_req_mgr_workq.h"
-#include "cam_debug_util.h"
-#include "cam_common_util.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_utils/cam_common_util.h"
 
 #define WORKQ_ACQUIRE_LOCK(workq, flags) {\
 	if ((workq)->in_irq) \

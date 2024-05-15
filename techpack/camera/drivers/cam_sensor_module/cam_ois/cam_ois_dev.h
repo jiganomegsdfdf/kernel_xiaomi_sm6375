@@ -11,16 +11,16 @@
 #include <media/v4l2-subdev.h>
 #include <media/v4l2-ioctl.h>
 #include <media/cam_sensor.h>
-#include <cam_sensor_i2c.h>
-#include <cam_sensor_spi.h>
-#include <cam_sensor_io.h>
-#include <cam_cci_dev.h>
-#include <cam_req_mgr_util.h>
-#include <cam_req_mgr_interface.h>
-#include <cam_mem_mgr.h>
-#include <cam_subdev.h>
-#include "cam_soc_util.h"
-#include "cam_context.h"
+#include "../cam_sensor_io/cam_sensor_i2c.h"
+#include "../cam_sensor_io/cam_sensor_spi.h"
+#include "../cam_sensor_io/cam_sensor_io.h"
+#include "../cam_cci/cam_cci_dev.h"
+#include "../../cam_req_mgr/cam_req_mgr_util.h"
+#include "../../cam_req_mgr/cam_req_mgr_interface.h"
+#include "../../cam_req_mgr/cam_mem_mgr.h"
+#include "../../cam_req_mgr/cam_subdev.h"
+#include "../../cam_utils/cam_soc_util.h"
+#include "../../cam_core/cam_context.h"
 
 #define DEFINE_MSM_MUTEX(mutexname) \
 	static struct mutex mutexname = __MUTEX_INITIALIZER(mutexname)

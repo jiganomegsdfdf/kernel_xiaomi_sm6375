@@ -13,12 +13,12 @@
 
 #include <media/cam_req_mgr.h>
 #include "cam_isp_dev.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_isp_hw_mgr_intf.h"
-#include "cam_node.h"
-#include "cam_debug_util.h"
-#include "cam_smmu_api.h"
-#include "camera_main.h"
+#include "../cam_core/cam_hw_mgr_intf.h"
+#include "isp_hw_mgr/include/cam_isp_hw_mgr_intf.h"
+#include "../cam_core/cam_node.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_smmu/cam_smmu_api.h"
+#include "../camera_main.h"
 
 static struct cam_isp_dev g_isp_dev;
 

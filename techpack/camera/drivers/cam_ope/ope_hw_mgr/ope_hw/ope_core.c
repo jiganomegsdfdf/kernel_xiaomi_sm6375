@@ -14,20 +14,20 @@
 #include <linux/timer.h>
 #include <linux/iopoll.h>
 #include <media/cam_ope.h>
-#include "cam_io_util.h"
-#include "cam_hw.h"
-#include "cam_hw_intf.h"
+#include "../../../cam_utils/cam_io_util.h"
+#include "../../../cam_core/cam_hw.h"
+#include "../../../cam_core/cam_hw_intf.h"
 #include "ope_core.h"
 #include "ope_soc.h"
-#include "cam_soc_util.h"
-#include "cam_io_util.h"
-#include "cam_cpas_api.h"
-#include "cam_debug_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
+#include "../../../cam_utils/cam_io_util.h"
+#include "../../../cam_cpas/include/cam_cpas_api.h"
+#include "../../../cam_utils/cam_debug_util.h"
 #include "ope_hw.h"
 #include "ope_dev_intf.h"
-#include "cam_cdm_util.h"
-#include "ope_bus_rd.h"
-#include "ope_bus_wr.h"
+#include "../../../cam_cdm/cam_cdm_util.h"
+#include "bus_rd/ope_bus_rd.h"
+#include "bus_wr/ope_bus_wr.h"
 
 static int cam_ope_caps_vote(struct cam_ope_device_core_info *core_info,
 	struct cam_ope_dev_bw_update *cpas_vote)

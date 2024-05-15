@@ -3,7 +3,7 @@
  * Copyright (c) 2017-2021, The Linux Foundation. All rights reserved.
  */
 
-#include "cam_sensor_cmn_header.h"
+#include "../cam_sensor_utils/cam_sensor_cmn_header.h"
 #include "cam_sensor_i2c.h"
 #include "cam_sensor_io.h"
 

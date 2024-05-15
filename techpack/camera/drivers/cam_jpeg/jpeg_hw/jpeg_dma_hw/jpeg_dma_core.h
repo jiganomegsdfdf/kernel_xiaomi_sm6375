@@ -13,7 +13,7 @@
 #include <linux/platform_device.h>
 #include <linux/dma-buf.h>
 
-#include "cam_jpeg_hw_intf.h"
+#include "../include/cam_jpeg_hw_intf.h"
 
 struct cam_jpeg_dma_reg_offsets {
 	uint32_t hw_version;

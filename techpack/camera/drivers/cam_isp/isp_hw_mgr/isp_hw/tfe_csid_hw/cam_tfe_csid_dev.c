@@ -8,9 +8,9 @@
 #include <linux/of_device.h>
 #include "cam_tfe_csid_core.h"
 #include "cam_tfe_csid_dev.h"
-#include "cam_tfe_csid_hw_intf.h"
-#include "cam_debug_util.h"
-#include "camera_main.h"
+#include "../include/cam_tfe_csid_hw_intf.h"
+#include "../../../../cam_utils/cam_debug_util.h"
+#include "../../../../camera_main.h"
 
 static struct cam_hw_intf *cam_tfe_csid_hw_list[CAM_TFE_CSID_HW_NUM_MAX] = {
 	0, 0, 0};

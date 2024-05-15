@@ -6,8 +6,8 @@
 #ifndef _CAM_IFE_CSID_HW_H_
 #define _CAM_IFE_CSID_HW_H_
 
-#include "cam_hw.h"
-#include "cam_ife_csid_hw_intf.h"
+#include "../../../../cam_core/cam_hw.h"
+#include "../include/cam_ife_csid_hw_intf.h"
 #include "cam_ife_csid_soc.h"
 #include "cam_ife_csid_core.h"
 

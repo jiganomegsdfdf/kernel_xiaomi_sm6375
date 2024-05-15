@@ -6,7 +6,7 @@
 #ifndef CAM_A5_SOC_H
 #define CAM_A5_SOC_H
 
-#include "cam_soc_util.h"
+#include "../../../cam_utils/cam_soc_util.h"
 
 #define ICP_UBWC_MAX 2
 

@@ -4,11 +4,11 @@
  */
 
 #include "cam_actuator_dev.h"
-#include "cam_req_mgr_dev.h"
+#include "../../cam_req_mgr/cam_req_mgr_dev.h"
 #include "cam_actuator_soc.h"
 #include "cam_actuator_core.h"
-#include "cam_trace.h"
-#include "camera_main.h"
+#include "../../cam_utils/cam_trace.h"
+#include "../../camera_main.h"
 
 static int cam_actuator_subdev_close_internal(struct v4l2_subdev *sd,
 	struct v4l2_subdev_fh *fh)

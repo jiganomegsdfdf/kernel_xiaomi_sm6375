@@ -6,20 +6,20 @@
 #include <linux/ratelimit.h>
 #include <linux/slab.h>
 #include <media/cam_isp.h>
-#include "cam_io_util.h"
-#include "cam_debug_util.h"
-#include "cam_cdm_util.h"
-#include "cam_hw_intf.h"
-#include "cam_ife_hw_mgr.h"
-#include "cam_vfe_hw_intf.h"
-#include "cam_irq_controller.h"
-#include "cam_tasklet_util.h"
-#include "cam_vfe_bus.h"
+#include "../../../../../cam_utils/cam_io_util.h"
+#include "../../../../../cam_utils/cam_debug_util.h"
+#include "../../../../../cam_cdm/cam_cdm_util.h"
+#include "../../../../../cam_core/cam_hw_intf.h"
+#include "../../../cam_ife_hw_mgr.h"
+#include "../../include/cam_vfe_hw_intf.h"
+#include "../../../hw_utils/irq_controller/cam_irq_controller.h"
+#include "../../../hw_utils/include/cam_tasklet_util.h"
+#include "include/cam_vfe_bus.h"
 #include "cam_vfe_bus_ver2.h"
-#include "cam_vfe_soc.h"
-#include "cam_vfe_core.h"
-#include "cam_debug_util.h"
-#include "cam_cpas_api.h"
+#include "../cam_vfe_soc.h"
+#include "../cam_vfe_core.h"
+#include "../../../../../cam_utils/cam_debug_util.h"
+#include "../../../../../cam_cpas/include/cam_cpas_api.h"
 
 static const char drv_name[] = "vfe_bus";
 

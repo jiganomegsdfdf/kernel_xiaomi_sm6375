@@ -6,10 +6,10 @@
 #ifndef _CAM_LRME_CONTEXT_H_
 #define _CAM_LRME_CONTEXT_H_
 
-#include "cam_context.h"
-#include "cam_context_utils.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_req_mgr_interface.h"
+#include "../cam_core/cam_context.h"
+#include "../cam_core/cam_context_utils.h"
+#include "../cam_core/cam_hw_mgr_intf.h"
+#include "../cam_req_mgr/cam_req_mgr_interface.h"
 
 #define CAM_LRME_CTX_INDEX_SHIFT 16
 

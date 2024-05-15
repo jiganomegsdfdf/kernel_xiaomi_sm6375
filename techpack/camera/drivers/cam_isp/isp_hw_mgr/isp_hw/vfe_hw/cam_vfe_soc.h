@@ -6,8 +6,8 @@
 #ifndef _CAM_VFE_SOC_H_
 #define _CAM_VFE_SOC_H_
 
-#include "cam_soc_util.h"
-#include "cam_isp_hw.h"
+#include "../../../../cam_utils/cam_soc_util.h"
+#include "../include/cam_isp_hw.h"
 
 #define CAM_VFE_DSP_CLK_NAME "ife_dsp_clk"
 

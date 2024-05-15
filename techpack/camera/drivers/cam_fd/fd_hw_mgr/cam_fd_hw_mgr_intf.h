@@ -8,8 +8,8 @@
 
 #include <linux/of.h>
 
-#include "cam_debug_util.h"
-#include "cam_hw_mgr_intf.h"
+#include "../../cam_utils/cam_debug_util.h"
+#include "../../cam_core/cam_hw_mgr_intf.h"
 
 int cam_fd_hw_mgr_init(struct device_node *of_node,
 	struct cam_hw_mgr_intf *hw_mgr_intf);

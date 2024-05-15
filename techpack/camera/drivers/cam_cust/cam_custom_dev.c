@@ -15,12 +15,12 @@
 #include <media/cam_req_mgr.h>
 
 #include "cam_custom_dev.h"
-#include "cam_hw_mgr_intf.h"
-#include "cam_custom_hw_mgr_intf.h"
-#include "cam_node.h"
-#include "cam_debug_util.h"
-#include "cam_smmu_api.h"
-#include "camera_main.h"
+#include "../cam_core/cam_hw_mgr_intf.h"
+#include "cam_custom_hw_mgr/include/cam_custom_hw_mgr_intf.h"
+#include "../cam_core/cam_node.h"
+#include "../cam_utils/cam_debug_util.h"
+#include "../cam_smmu/cam_smmu_api.h"
+#include "../camera_main.h"
 
 static struct cam_custom_dev g_custom_dev;
 

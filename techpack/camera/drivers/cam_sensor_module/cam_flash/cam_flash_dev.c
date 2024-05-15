@@ -7,8 +7,8 @@
 #include "cam_flash_dev.h"
 #include "cam_flash_soc.h"
 #include "cam_flash_core.h"
-#include "cam_common_util.h"
-#include "camera_main.h"
+#include "../../cam_utils/cam_common_util.h"
+#include "../../camera_main.h"
 
 static int32_t cam_flash_driver_cmd(struct cam_flash_ctrl *fctrl,
 		void *arg, struct cam_flash_private_soc *soc_private)

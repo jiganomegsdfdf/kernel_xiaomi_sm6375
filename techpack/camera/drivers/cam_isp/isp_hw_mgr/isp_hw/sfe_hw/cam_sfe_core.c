@@ -5,11 +5,11 @@
 
 #include <linux/slab.h>
 #include <linux/list.h>
-#include "cam_tasklet_util.h"
-#include "cam_sfe_hw_intf.h"
+#include "../../hw_utils/include/cam_tasklet_util.h"
+#include "../include/cam_sfe_hw_intf.h"
 #include "cam_sfe_soc.h"
 #include "cam_sfe_core.h"
-#include "cam_debug_util.h"
+#include "../../../../cam_utils/cam_debug_util.h"
 
 static const char drv_name[] = "sfe";
 

@@ -7,7 +7,7 @@
 #ifndef _CAM_SFE_BUS_WR_H_
 #define _CAM_SFE_BUS_WR_H_
 
-#include "cam_sfe_bus.h"
+#include "include/cam_sfe_bus.h"
 
 #define CAM_SFE_BUS_WR_MAX_CLIENTS     13
 #define CAM_SFE_BUS_WR_MAX_SUB_GRPS    6
